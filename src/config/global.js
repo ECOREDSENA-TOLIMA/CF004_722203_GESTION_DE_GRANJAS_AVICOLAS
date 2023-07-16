@@ -1,9 +1,11 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo:
+      'Plan de producción y evaluación de resultados de la empresa',
+    descripcionCurso:
+      'El proceso productivo en una empresa toma vital importancia en su actividad misional; comprender las exigencias del mercado en contraste con la capacidad instalada para atenderlas aportará elementos de juicio para ejecutar la producción en función de una estimación del volumen de ventas esperado. Finalmente, refinar los procesos a través de un plan de mejora maximizará la generación de valor.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -12,6 +14,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -51,6 +57,12 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
+        titulo: 'Titulo de primer nivel',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
         titulo: 'Titulo de primer nivel',
         desarrolloContenidos: true,
       },
