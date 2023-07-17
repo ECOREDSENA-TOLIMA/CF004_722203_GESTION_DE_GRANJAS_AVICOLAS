@@ -37,34 +37,99 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Presupuesto de producción',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Características',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Distribución de recursos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Órdenes de producción',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Capacidad instalada',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Trabajo en equipo',
+            hash: 't_1_5',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Informes de ejecución',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Características',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Estructura',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Análisis',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Demanda del producto',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Teoría de la oferta y la demanda',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Cálculo de la demanda',
+            hash: 't_3_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         numero: '4',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Plan de mejora',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Hallazgos',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Pasos para implementarlo',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Acciones correctivas y de mejora',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [
