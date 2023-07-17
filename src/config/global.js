@@ -174,32 +174,106 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Diagrama de Gantt 1.2.2',
+      referencia:
+        'Saber Programas. (2017). <em>¿Cómo crear un diagrama de Gantt en Excel? [ Cronograma usando los gráficos]</em> [Video]. YouTube. https://www.youtube.com/watch?v=chR6kx4btDQ ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=chR6kx4btDQ ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Órdenes de producción 1.3',
+      referencia:
+        'Padilla F. (2016). <em>Costos por órdenes de producción.</em> [Video]. YouTube. https://www.youtube.com/watch?v=xQG946KNQv',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=xQG946KNQvg ',
+    },
+    {
+      tema: 'Técnicas de trabajo en equipo 1-5-2',
+      referencia:
+        'Coworkingfy. (2019). <em>Técnicas de trabajo en equipo | 4 métodos para lograr la unión.</em> [Video]. YouTube. https://coworkingfy.com/tecnicas-trabajo-en-equipo/',
+      tipo: 'Artículo web',
+      link: 'https://coworkingfy.com/tecnicas-trabajo-en-equipo/  ',
+    },
+    {
+      tema: 'Ley de la oferta y la demanda 3.1',
+      referencia:
+        'Sevilla A. (2015). <em>Ley de oferta y demanda.</em> Economipedia.com. https://economipedia.com/definiciones/ley-de-oferta-y-demanda.html',
+      tipo: 'Artículo web',
+      link:
+        'https://economipedia.com/definiciones/ley-de-oferta-y-demanda.html',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Producción',
+      significado: 'Elaboración o transformación de un producto.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Línea de producción',
+      significado:
+        'Secuencia de operaciones asociadas a la elaboración de un producto.',
+    },
+    {
+      termino: 'Diagrama',
+      significado: 'Representación gráfica de una idea o proceso.',
+    },
+    {
+      termino: 'Cronograma',
+      significado:
+        'Representación gráfica de actividades dispuestas en un periodo de tiempo.',
+    },
+    {
+      termino: 'Demanda',
+      significado:
+        'Cantidad exigida de un bien o servicio por sus consumidores.',
+    },
+    {
+      termino: 'Informe',
+      significado: 'Documento elaborado con el fin de compartir información.',
+    },
+    {
+      termino: 'Oferta',
+      significado: 'Ofrecimiento de productos para la venta.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Alcaldía Mayor de Bogotá. (2016). Planes de mejoramiento. Departamento Administrativo del Servicio Civil Distrital.',
+      link:
+        'https://www.serviciocivil.gov.co/transparencia/planeacion/planes-de-mejoramiento/planes-de-mejoramiento-internos',
+    },
+    {
+      referencia: 'Aneca. (s.f.). Plan de mejoras. Herramienta de trabajo.',
+      link:
+        'https://www.academia.edu/28134046/PLAN_DE_MEJORAS_Herramienta_de_trabajo_Agencia_Nacional_de_Evaluaci%C3%B3n_de_la_Calidad_y_Acreditaci%C3%B3n',
+    },
+    {
+      referencia:
+        'Asana. (2020). ¿No conocías los diagramas de Gantt? Comienza aquí.',
+      link: 'https://asana.com/es/resources/gantt-chart-basics',
+    },
+    {
+      referencia:
+        'Burbano A. (2006). Costos y presupuestos. Ediciones Uniandes.',
+      link:
+        'https://es.scribd.com/read/436270130/Costos-y-presupuestos-Segunda-edicion',
+    },
+    {
+      referencia:
+        'Coworkingfy. (s.f.). Técnicas de trabajo en equipo | 4 métodos para lograr la unión. Coworkingfy.',
+      link: 'https://coworkingfy.com/tecnicas-trabajo-en-equipo/',
+    },
+    {
+      referencia:
+        'Guarnizo, C. F., y Cárdenas, S. M. (2015). Costos por órdenes de producción y por procesos. La Salle.',
+      link:
+        'https://es.scribd.com/book/485288049/Costos-por-ordenes-de-produccion-y-por-procesos',
+    },
+    {
+      referencia: '(S/f). Edu.co. Recuperado el 6 de julio de 2023, de',
+      link:
+        'https://repositorio.sena.edu.co/bitstream/11404/4177/1/unidad_07_sistema_costos_ordenes_produccion.pdf',
     },
   ],
   creditos: [
@@ -208,13 +282,13 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -222,9 +296,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Ángela Rocío Sánchez Ruiz',
+          cargo: 'Experto Temático',
+          centro: 'Centro de Electricidad, Electrónica y Telecomunicaciones',
+        },
+        {
+          nombre: 'Miroslava González H.',
+          cargo: 'Diseñador y Evaluador Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Juan Gilberto Giraldo Cortés',
+          cargo: 'Diseñador Instruccional',
+          centro: '',
+        },
+        {
+          nombre: 'Álix Cecilia Chinchilla Rueda',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñones',
+          cargo: 'Asesora Metodológica',
+          centro: 'Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano',
+          cargo: 'Asesor Pedagógico',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Revisión y Corrección de Estilo',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja',
         },
       ],
     },
@@ -232,19 +337,29 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'José Jaime Luis Tang',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Animador y Producción Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Sebastián Trujillo Afanador',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -252,14 +367,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validación y Vinculación en Plataforma LMS',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Gilberto Naranjo Farfán',
+          cargo: 'Validación de Contenidos Accesibles',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
