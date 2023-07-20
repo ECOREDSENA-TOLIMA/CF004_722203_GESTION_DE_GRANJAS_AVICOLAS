@@ -9,7 +9,7 @@
     
     .d-flex.flex-wrap.mb-5
       .col-xl-8.pe-xl-4.d-flex.flex-wrap.align-items-center.order-2.order-xl-1
-        .cajon.color-acento-botones.p-4.d-flex.flex-wrap(data-aos="fade-right" style="background-color: #06D1D1")
+        .cajon.color-acento-contenido.p-4.d-flex.flex-wrap(data-aos="fade-right")
           .col-md-11.ps-lg-4
             p Las empresas que llevan a cabo actividades de transformación previa a la venta de sus productos, cuentan con una estructura y con un área de producción. En ella, se ejecutan todos los procesos que modifican las materias primas hasta convertirlas en producto terminado; por lo que una misma entidad puede contar con diversas líneas de producción independientes según su actividad económica y su nicho de mercado. 
             p Cuando se trata de estimar el valor de un producto que ha pasado por un proceso de transformación, deben tenerse presente todos los costos necesarios de forma directa o indirecta en su producción. La medición de estas inversiones permitirá determinar el costo unitario de producción, el cual es uno de los factores más relevantes para definir el precio de venta de un producto.
@@ -147,16 +147,16 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img-9.svg', alt='')
 
-          .tarjeta.color-acento-contenido.p-3(x="39.5%" y="21%")
+          .tarjeta.color-acento-contenido2.p-3(x="39.5%" y="21%" numero="+")
             p Trazar visualmente el plan y el cronograma de un proyecto:  se muestra cuál es el trabajo, cuándo y en qué orden se hará.
 
-          .tarjeta.color-acento-botones.p-3(x="56.5%" y="48%")
+          .tarjeta.color-acento-botones.p-3(x="56.5%" y="48%" numero="+")
             p Para organizar proyectos complejos: su sistema permite la compilación de una gran cantidad de tareas a la vez.
 
-          .tarjeta.color-primario.p-3(x="65.9%" y="60%")
+          .tarjeta.color-primario.p-3(x="65.9%" y="60%" numero="+")
             p Con el fin de coordinar múltiples involucrados: permiten designar las tareas a muchas personas a la vez. Cada cual puede tener uno o varios responsables.
 
-          .tarjeta.color-secundario.p-3(x="77.9%" y="85.9%")
+          .tarjeta.color-secundario.p-3(x="77.9%" y="85.9%" numero="+")
             p Se pueden estimar los cronogramas y cargas de trabajo: desde su concepción otorgan la facultad de saber con anticipación cuánto tiempo y cuánta mano de obra requerirá cada actividad en específico.
 
     p.mb-5(data-aos="fade-right") Para diseñar un diagrama de Gantt se requiere como insumo principal el cronograma elaborado en el plan de producción. Como recomendación se describe la siguiente metodología a seguir.
@@ -169,16 +169,16 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img-10.svg', alt='')
 
-          .tarjeta.color-acento-contenido.p-3(x="38%" y="40%")
+          .tarjeta.color-acento-contenido2.p-3(x="12%" y="42%" numero="+")
             p Debe ser tan extenso como el ciclo productivo de la empresa, esto abarca todas las actividades relacionadas con la producción del bien a vender, es decir, desde la orden de compra de materia prima, hasta la puesta en inventario del producto terminado.
 
-          .tarjeta.color-acento-botones.p-3(x="60%" y="40%")
+          .tarjeta.color-acento-botones.p-3(x="90%" y="42%" numero="+")
             p Deben agregarse las tareas en sentido vertical con sus fechas de inicio y final. El horizonte de tiempo se extiende de manera horizontal, por lo que aquellas que necesiten de un periodo más largo, tendrán una mayor longitud.
 
-          .tarjeta.color-primario.p-3(x="65.9%" y="60%")
+          .tarjeta.color-primario.p-3(x="90%" y="59%" numero="+")
             p Toda actividad productiva está sujeta a imprevistos que modifiquen los periodos de finalización de las tareas. La supervisión permanente del diagrama permitirá hacer modificaciones cuando así lo requiera la situación, otorgando más elementos de juicio para la entrega de los bienes terminados. Con esto, se evita que se programen entregas de productos en fechas en las que aún no se encuentran terminados.
 
-          .tarjeta.color-secundario.p-3(x="38%" y="65%")
+          .tarjeta.color-secundario.p-3(x="12%" y="59%" numero="+")
             p En la ejecución de los procesos de producción, existen tareas que son dependientes de otras, hacer claridad sobre estas permite anticiparse a retrasos que afecten varias actividades del cronograma inicial.
 
     p.mb-5(data-aos="fade-right") Si bien existen herramientas especializadas en el diseño de este diagrama, es posible elaborar una versión simplificada del mismo haciendo uso de una hoja de cálculo. Retomando el ejemplo de la granja de producción avícola, se elabora la siguiente tabla y su diagrama correspondiente. 
@@ -322,40 +322,40 @@
     img.mb-4.p-4.mx-auto(src="@/assets/curso/temas/tema1/img-22.1.svg")
 
     SlyderF(columnas="col-lg-6 col-xl-4").mb-5
-      .tarjeta.color-acento-contenido.p-4
-        .row.justify-content-center
-          .col-8
-            img(src='@/assets/curso/temas/tema1/img-22.svg' alt='AvatarTop')
-        h2.text-center Jornada Laboral
-        p.text-center En Colombia la jornada laboral es de 48 horas a la semana, o su equivalente diario de 8 horas. Según el tipo de empresa, es posible que la jornada productiva sea de 12 o 16 horas haciendo uso de más personal, el cual deberá laborar por turnos.
+      .tarjeta.color-acento-contenido
+        .row.justify-content-center.mb-5
+          .col-12
+            img.img-slider(src='@/assets/curso/temas/tema1/imagen-1.png' alt='')
+        h2.text-center.texto-negro Jornada Laboral
+        p.px-3.text-center.texto-negro En Colombia la jornada laboral es de 48 horas a la semana, o su equivalente diario de 8 horas. Según el tipo de empresa, es posible que la jornada productiva sea de 12 o 16 horas haciendo uso de más personal, el cual deberá laborar por turnos.
 
-      .tarjeta.color-acento-contenido.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/img-23.svg' alt='AvatarTop')
-        h2.text-center Condiciones ambientales
-        p.text-center Existen actividades que solo pueden ejecutarse con luz ambiental o en ciertas condiciones climáticas que se dan únicamente en un número determinado de meses al año. Esta situación suele observarse en empresas del sector primario de la economía (extracción de minerales, actividades agrícolas, entre otras).
+      .tarjeta.color-acento-contenido
+        .row.justify-content-center.mb-5
+          .col-12
+            img.img-slider(src='@/assets/curso/temas/tema1/imagen-2.png' alt='')
+        h2.text-center.texto-negro Condiciones ambientales
+        p.px-3.text-center.texto-negro Existen actividades que solo pueden ejecutarse con luz ambiental o en ciertas condiciones climáticas que se dan únicamente en un número determinado de meses al año. Esta situación suele observarse en empresas del sector primario de la economía (extracción de minerales, actividades agrícolas, entre otras).
 
-      .tarjeta.color-acento-contenido.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/img-24.svg' alt='AvatarTop')
-        h2.text-center Condiciones normativas
-        p.text-center La legislación aplicada al mercado en el que se lleva a cabo la producción puede interferir con las políticas de la empresa. Por ejemplo, las políticas ambientales o la estratificación pueden restringir los horarios de operación o su intensidad. 
+      .tarjeta.color-acento-contenido
+        .row.justify-content-center.mb-5  
+          .col-12
+            img.img-slider(src='@/assets/curso/temas/tema1/imagen-3.png' alt='')
+        h2.text-center.texto-negro Condiciones normativas
+        p.px-3.text-center.texto-negro La legislación aplicada al mercado en el que se lleva a cabo la producción puede interferir con las políticas de la empresa. Por ejemplo, las políticas ambientales o la estratificación pueden restringir los horarios de operación o su intensidad. 
 
-      .tarjeta.color-acento-contenido.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/img-25.svg' alt='AvatarTop')
-        h2.text-center Limitaciones técnicas
-        p.text-center La maquinaria utilizada en producción no suele estar diseñada para funcionar las 24 horas del día. En la mayoría de los casos es obligatorio suspender su uso cada cierto tiempo para prolongar su vida útil.
+      .tarjeta.color-acento-contenido
+        .row.justify-content-center.mb-5
+          .col-12
+            img.img-slider(src='@/assets/curso/temas/tema1/imagen-4.png' alt='')
+        h2.text-center.texto-negro Limitaciones técnicas
+        p.px-3.text-center.texto-negro La maquinaria utilizada en producción no suele estar diseñada para funcionar las 24 horas del día. En la mayoría de los casos es obligatorio suspender su uso cada cierto tiempo para prolongar su vida útil.
 
-      .tarjeta.color-acento-contenido.p-4
-        .row.justify-content-center.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema1/img-26.svg' alt='AvatarTop')
-        h2.text-center Limitaciones de capital
-        p.text-center Mantener los niveles de producción al máximo implica contar con todos los insumos necesarios en cada etapa del proceso productivo. Esto se traduce en un volumen de compras significativos que no es sostenible en el mediano plazo si el recaudo por ventas no es por lo menos equivalente. 
+      .tarjeta.color-acento-contenido
+        .row.justify-content-center.mb-5
+          .col-12
+            img.img-slider(src='@/assets/curso/temas/tema1/imagen-5.png' alt='')
+        h2.text-center.texto-negro Limitaciones de capital
+        p.px-3.text-center.texto-negro Mantener los niveles de producción al máximo implica contar con todos los insumos necesarios en cada etapa del proceso productivo. Esto se traduce en un volumen de compras significativos que no es sostenible en el mediano plazo si el recaudo por ventas no es por lo menos equivalente. 
 
     p.mb-4(data-aos="fade-right") A continuación, se tienen en cuenta otros elementos que se deben tener en cuenta en la gestión de una empresa avícola.
 
@@ -380,7 +380,6 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Trabajo en equipo
-            br
             h4 Objetivos en común: 
             p Se deben identificar aquellas metas que comparten los integrantes del equipo, de esta forma será más sencillo dirigir los esfuerzos a un propósito claro.
 
@@ -391,7 +390,6 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Trabajo en equipo
-            br
             h4 Funciones por trabajador:
             p Definir las labores que ejecutará cada integrante de acuerdo con su conocimiento y fortalezas hará que se incremente la efectividad, puesto que cada trabajador aportará desde una posición diferente.
 
@@ -402,7 +400,6 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Trabajo en equipo
-            br
             h4 Interdependencia:
             p La secuencia de tareas a desarrollar debe crear una red en la que cada integrante se apoye en los demás, de forma que se complementen entre sí.
 
@@ -413,7 +410,6 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Trabajo en equipo
-            br
             h4 Reglas claras:
             p Definidas por el mismo equipo o por su líder, enmarcar el trabajo dentro de una serie de reglas evita malentendidos y promueve la ejecución del trabajo de una forma organizada.
 
@@ -424,7 +420,6 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Trabajo en equipo
-            br
             h4 Comunicación acertada: 
             p Debe existir un flujo constante de comunicación entre los miembros del equipo, La retroalimentación es importante para atacar aquellas debilidades que pasarían desapercibidas al realizar las tareas de forma individual.
 
@@ -435,7 +430,6 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Trabajo en equipo
-            br
             h4 Responsabilidad: 
             p así como se sugiere una designación de tareas, también se deben delimitar las responsabilidades. Aunque los objetivos se alcancen de manera conjunta, cada integrante debe responder por su porción del trabajo a realizar.
 
@@ -446,7 +440,6 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Trabajo en equipo
-            br
             h4 Liderazgo:
             p todo trabajo que implique la coordinación de dos o más personas requerirá de un buen líder. Su función será la de encaminar las tareas para alcanzar los objetivos y dirimir las discusiones que puedan surgir por posiciones contrarias. 
 
@@ -464,14 +457,14 @@
         .row
           img.p-1.mx-auto(src="@/assets/curso/temas/tema1/img-35.svg")
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Solución de problemas")
-        .row.mt-5
+        .row
           p Es una técnica que requiere de mayor planeación, pues se busca aislar el problema para luego plantear una solución más estructurada. El diagrama de Gantt, visto previamente en este componente, es una de las metodologías aplicables bajo esta técnica, pues permite registrar las actividades enfocadas a resolver el problema, designar responsables y proponer horizontes de tiempo. Esta técnica se complementa con la elaboración de un plan de acción, que incluye los objetivos a cumplir a futuro.
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Técnicas de experimentación")
-        .row.mt-5
-          p.mt-5 Este sistema incentiva la resolución de problemas a través de la experimentación, sometiendo a prueba diferentes alternativas para resolver problemáticas. Con ello se busca que el personal se mantenga en una mentalidad de mejoramiento continuo, aportando nuevos conocimientos con cada nueva estrategia aplicada a un mismo problema.
+        .row
+          p Este sistema incentiva la resolución de problemas a través de la experimentación, sometiendo a prueba diferentes alternativas para resolver problemáticas. Con ello se busca que el personal se mantenga en una mentalidad de mejoramiento continuo, aportando nuevos conocimientos con cada nueva estrategia aplicada a un mismo problema.
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Informarse y aprender")
-        .row.mt-5
-          p.mt-4 Es una técnica de amplia aplicación en las organizaciones. Con ella se busca que el personal se mantenga en constante capacitación para refinar sus tareas con el paso del tiempo. Es responsabilidad de las directivas otorgar las herramientas necesarias para que se logre este objetivo; para ello se puede disponer de sistemas como las capacitaciones, rotaciones de cargos, talleres prácticos, entre otros.
+        .row
+          p Es una técnica de amplia aplicación en las organizaciones. Con ella se busca que el personal se mantenga en constante capacitación para refinar sus tareas con el paso del tiempo. Es responsabilidad de las directivas otorgar las herramientas necesarias para que se logre este objetivo; para ello se puede disponer de sistemas como las capacitaciones, rotaciones de cargos, talleres prácticos, entre otros.
 
 
 </template>

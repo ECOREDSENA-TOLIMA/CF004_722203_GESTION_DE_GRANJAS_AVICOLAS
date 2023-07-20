@@ -9,7 +9,7 @@
 
     .d-flex.flex-wrap.mb-5
       .col-xl-8.pe-xl-4.d-flex.flex-wrap.align-items-center.order-2.order-xl-1
-        .cajon.color-acento-botones.p-4.d-flex.flex-wrap(data-aos="fade-right")
+        .cajon.color-acento-contenido.p-4.d-flex.flex-wrap(data-aos="fade-right")
           .col-md-11.ps-lg-4
             p Se ha abordado la producción y la generación de informes desde una perspectiva interna de la empresa, pero no se puede desconocer que el objetivo de una empresa es satisfacer las necesidades del entorno por lo que en el proceso debe generar valor para sí misma o para sus propietarios.
             p Desde la concepción de la empresa y en la toma de decisiones estratégicas, siempre deberá evaluarse la demanda, entendida como la exigencia del mercado en relación con un bien o servicio determinado. Por ejemplo, para definir si se constituye una granja avícola productora de huevos, primero debe evaluarse si en la región existen clientes potenciales, como familias que los demanden para consumo o fábricas para usarlos como materia prima.

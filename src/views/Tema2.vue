@@ -9,7 +9,7 @@
     
     .d-flex.flex-wrap.mb-5
       .col-xl-8.pe-xl-4.d-flex.flex-wrap.align-items-center.order-2.order-xl-1
-        .cajon.color-primario.p-4.d-flex.flex-wrap(data-aos="fade-right")
+        .cajon.color-primario.p-4.d-flex.flex-wrap(data-aos="fade-right" style="background-color: #FFE8CE")
           .col-md-11.ps-lg-4
             p Toda herramienta de planeación requiere de una fase de control y supervisión que permita tener claridad sobre si las estrategias implementadas alcanzaron los resultados esperados. Esta retroalimentación permite que se modifique la planeación para refinar los procesos y maximizar la generación de valor en la empresa. Los informes de ejecución cumplen con este propósito, puesto que miden el nivel de cumplimiento del plan de producción y todos los elementos que lo conforman.
       img.mb-4.mb-xl-0.col-xl-4.mx-auto.order-1.order-xl-2(src="@/assets/curso/temas/tema2/img-36.png" data-aos="fade-left" style="max-width: 400px")
@@ -88,7 +88,7 @@
       .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/temas/tema2/img-39.svg', alt='Texto que describa la imagen')
-      .cajon.color-primario.p-5.d-flex.flex-wrap.col-12.col-md-7(data-aos="fade-left")
+      .cajon.color-primario.p-5.d-flex.flex-wrap.col-12.col-md-7(data-aos="fade-left" style="background-color: #FFE8CE")
         p Contar con las variaciones entre lo presupuestado y lo ejecutado permite tener un primer acercamiento a la gestión y manejo de los procesos de la empresa, sin embargo, un análisis requiere tener presentes variables de tipo cualitativo que no se pueden plasmar en este tipo de tablas. Las cifras sin contexto pueden inducir a errores, por lo que se sugiere que cada rubro se interprete como un fragmento de un organismo, donde cada elemento puede variar en función de los demás.
 
     p.mb-4(data-aos="fade-right") Siguiendo con la idea anterior, es altamente recomendable elaborar más de un presupuesto, afectado por el comportamiento de diferentes áreas, creando una sucesión de escenarios que sirvan como comparativa con la ejecución posterior. Para llevar a cabo esta labor, surge una herramienta conocida como el presupuesto flexible, el cual busca establecer metas diferentes cuando los escenarios originales no se cumplen.
@@ -120,9 +120,9 @@
         span <em>Informe presupuesto de producción flexible</em>
       img.d-md-block(src="@/assets/curso/temas/tema2/img-42.svg" data-aos="fade-left")
 
-    p.mb-4(data-aos="fade-right") La interpretación derivada de los dos presupuestos es diferente debido a las expectativas de ventas. En el primer caso, la disminución significativa de las ventas hace parecer como adecuada la gestión en las demás áreas, situación contraria a la presenciada en el presupuesto flexible, donde el volumen de ventas tiene implicaciones en los demás sistemas de la compañía.
+    p.mb-4 La interpretación derivada de los dos presupuestos es diferente debido a las expectativas de ventas. En el primer caso, la disminución significativa de las ventas hace parecer como adecuada la gestión en las demás áreas, situación contraria a la presenciada en el presupuesto flexible, donde el volumen de ventas tiene implicaciones en los demás sistemas de la compañía.
 
-    p.mb-4(data-aos="fade-right") La valoración de estas desviaciones a la hora de evaluar la gestión es importante para determinar los procesos que requieren atención; complementar el análisis con la simulación de escenarios y teniendo presentes todas las situaciones, reducirá el factor subjetivo y ofrecerá un resultado mucho más preciso.
+    p.mb-4 La valoración de estas desviaciones a la hora de evaluar la gestión es importante para determinar los procesos que requieren atención; complementar el análisis con la simulación de escenarios y teniendo presentes todas las situaciones, reducirá el factor subjetivo y ofrecerá un resultado mucho más preciso.
 
 </template>
 

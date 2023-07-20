@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
 
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap
       .col-xl-8.pe-xl-4.d-flex.flex-wrap.align-items-center.order-2.order-xl-1
         .cajon.color-primario.p-4.d-flex.flex-wrap(data-aos="fade-right" style="background-color: #FFE8CE")
           .col-md-11.ps-lg-4
