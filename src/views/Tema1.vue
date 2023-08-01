@@ -326,7 +326,7 @@
         .row.justify-content-center.mb-5
           .col-12
             img.img-slider(src='@/assets/curso/temas/tema1/imagen-1.png' alt='')
-        h2.text-center.texto-negro Jornada Laboral
+        h2.text-center.texto-negro Jornada laboral
         p.px-3.text-center.texto-negro En Colombia la jornada laboral es de 48 horas a la semana, o su equivalente diario de 8 horas. Según el tipo de empresa, es posible que la jornada productiva sea de 12 o 16 horas haciendo uso de más personal, el cual deberá laborar por turnos.
 
       .tarjeta.color-acento-contenido
@@ -379,8 +379,7 @@
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Trabajo en equipo
-            h4 Objetivos en común: 
+            h4 Objetivos en común 
             p Se deben identificar aquellas metas que comparten los integrantes del equipo, de esta forma será más sencillo dirigir los esfuerzos a un propósito claro.
 
           .col-md-6
@@ -389,8 +388,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Trabajo en equipo
-            h4 Funciones por trabajador:
+            h4 Funciones por trabajador
             p Definir las labores que ejecutará cada integrante de acuerdo con su conocimiento y fortalezas hará que se incremente la efectividad, puesto que cada trabajador aportará desde una posición diferente.
 
           .col-md-6
@@ -399,8 +397,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Trabajo en equipo
-            h4 Interdependencia:
+            h4 Interdependencia
             p La secuencia de tareas a desarrollar debe crear una red en la que cada integrante se apoye en los demás, de forma que se complementen entre sí.
 
           .col-md-6
@@ -409,8 +406,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Trabajo en equipo
-            h4 Reglas claras:
+            h4 Reglas claras
             p Definidas por el mismo equipo o por su líder, enmarcar el trabajo dentro de una serie de reglas evita malentendidos y promueve la ejecución del trabajo de una forma organizada.
 
           .col-md-6
@@ -419,8 +415,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Trabajo en equipo
-            h4 Comunicación acertada: 
+            h4 Comunicación acertada
             p Debe existir un flujo constante de comunicación entre los miembros del equipo, La retroalimentación es importante para atacar aquellas debilidades que pasarían desapercibidas al realizar las tareas de forma individual.
 
           .col-md-6
@@ -429,9 +424,8 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Trabajo en equipo
-            h4 Responsabilidad: 
-            p así como se sugiere una designación de tareas, también se deben delimitar las responsabilidades. Aunque los objetivos se alcancen de manera conjunta, cada integrante debe responder por su porción del trabajo a realizar.
+            h4 Responsabilidad
+            p Así como se sugiere una designación de tareas, también se deben delimitar las responsabilidades. Aunque los objetivos se alcancen de manera conjunta, cada integrante debe responder por su porción del trabajo a realizar.
 
           .col-md-6
             figure
@@ -439,9 +433,8 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Trabajo en equipo
-            h4 Liderazgo:
-            p todo trabajo que implique la coordinación de dos o más personas requerirá de un buen líder. Su función será la de encaminar las tareas para alcanzar los objetivos y dirimir las discusiones que puedan surgir por posiciones contrarias. 
+            h4 Liderazgo
+            p Todo trabajo que implique la coordinación de dos o más personas requerirá de un buen líder. Su función será la de encaminar las tareas para alcanzar los objetivos y dirimir las discusiones que puedan surgir por posiciones contrarias. 
 
           .col-md-6
             figure
@@ -450,7 +443,7 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h3#t_1_1 1.5.2 Técnicas 
 
-    p.mb-4(data-aos="fade-right") El desempeño de los equipos de trabajo puede verse afectado por técnicas enfocadas a potenciar las habilidades de sus integrantes. El portal Coworkingfy (s.f.) presenta cuatro (4) métodos basados en procedimientos y procesos lógicos para lograr este objetivo, a saber:
+    p.mb-4(data-aos="fade-right") El desempeño de los equipos de trabajo puede verse afectado por técnicas enfocadas a potenciar las habilidades de sus integrantes. El portal <em>Coworkingfy (s.f.)</em> presenta cuatro (4) métodos basados en procedimientos y procesos lógicos para lograr este objetivo a saber:
 
     TabsA.color-acento-botones.mt-5
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Dinámica de grupos")

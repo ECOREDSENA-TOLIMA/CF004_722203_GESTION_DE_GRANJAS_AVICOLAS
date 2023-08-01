@@ -23,7 +23,7 @@
       .row(titulo="Dirigido a:").p-4
         .col-md-12.mb-4.mb-md-0
           p Está dirigido a las directivas pertinentes, es decir, a aquellos funcionarios que tengan la capacidad de interpretar la información y cuenten con las facultades para la toma de decisiones a partir de ello.
-      .row(titulo="Elementos Necesarios").p-4
+      .row(titulo="Elementos necesarios").p-4
         .col-md-12.mb-4.mb-md-0
           p Debe contar con todos los elementos necesarios para resaltar aquellos aspectos que representen las mayores problemáticas y, por lo tanto, requieran de más atención.
       .row(titulo="Periodicidad").p-4

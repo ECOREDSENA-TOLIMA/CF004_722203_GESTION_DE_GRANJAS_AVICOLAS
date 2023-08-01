@@ -83,7 +83,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Estimar porción de mercado que se espera cubrir:
+            h4 Estimar porción de mercado que se espera cubrir
             br
             p La inclusión de un producto en un mercado implica competir con otros proveedores de productos similares o sustitutos. Salvo en situaciones de monopolio, es prácticamente imposible lograr abarcar toda la demanda de un bien. Esta fase es la más subjetiva y con mayor margen de error, se trata de determinar qué cantidad del mercado podrá ocupar el bien producido.
 
@@ -93,7 +93,7 @@
 
         .row
           .col-md-6.mb-4.mb-md-0
-            h4 Estimar porción de mercado que se espera cubrir:
+            h4 Estimar porción de mercado que se espera cubrir
             br
             p Por ejemplo, si se venden mensualmente 1.000 kits de maquillaje en la población designada a las mujeres en el rango de edad y en la estratificación definida, la empresa puede aspirar a participar en el mercado con una venta de 100 de esos kits con similares características, en este caso estimaría una participación del 10 %. Por otro lado, muchos factores pueden afectar en este aspecto, tales como: la cantidad de competidores, el tamaño de la demanda y la capacidad de producción, entre otros.
 

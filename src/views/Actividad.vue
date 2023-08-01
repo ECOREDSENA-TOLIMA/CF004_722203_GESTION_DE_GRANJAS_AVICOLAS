@@ -10,8 +10,8 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Relaciona y Comprende
-        p.mb-4 #[b Objetivo:] El objetivo de la actividad didáctica es evaluar y fortalecer la comprensión de los conceptos clave relacionados con el plan de producción y evaluación de resultados de las empresas.
+          h2 Relaciona y comprende
+        p.mb-4 #[b Objetivo:] el objetivo de la actividad didáctica es evaluar y fortalecer la comprensión de los conceptos clave relacionados con el plan de producción y evaluación de resultados de las empresas.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

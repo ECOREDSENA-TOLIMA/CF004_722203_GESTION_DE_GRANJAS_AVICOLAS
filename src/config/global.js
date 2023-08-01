@@ -308,7 +308,7 @@ export default {
         {
           nombre: 'Juan Gilberto Giraldo Cortés',
           cargo: 'Diseñador Instruccional',
-          centro: '',
+          centro: 'Centro de Gestión Industrial',
         },
         {
           nombre: 'Álix Cecilia Chinchilla Rueda',
