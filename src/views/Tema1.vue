@@ -27,7 +27,36 @@
 
     p(data-aos="fade-right") La elaboración de un presupuesto de producción es vital y suele contar con los siguientes factores.
 
-    img(src="@/assets/curso/temas/tema1/img-2.svg" data-aos="fade-right")
+    PasosA.color-acento-contenido.mb-5(tipo="n")
+      .row
+        .col-lg
+          p.my-5(style="position:relative") ● Se encuentra estrechamente relacionado con el presupuesto comercial o de ventas, por lo que la cantidad de unidades que se esperan vender de un producto le permite al área de producción determinar cuántas unidades se deben producir para satisfacer la demanda.
+
+        .col-auto
+          figure(data-aos="zoom-in")
+            img(src='@/assets/curso/temas/tema1/gallery-1.png', alt='').img125
+          
+      .row
+        .col-auto
+          figure(data-aos="zoom-in")
+            img(src='@/assets/curso/temas/tema1/gallery-2.png', alt='').img125
+        .col-lg.align-start
+          p.my-3(style="position:relative") ● Contempla todos los aspectos de la producción, no solo la cantidad de insumos y trabajo necesarios, sino también los tiempos para cada etapa de transformación, así como los requerimientos de capital (dinero).
+    
+      .row
+        .col-lg
+          p.my-5(style="position:relative") ● Debe tenerse en cuenta la política de inventarios. Por norma general, la fórmula para determinar las unidades a producir es: unidades a vender + inventario final – inventario inicial. Esto implica que la producción se ve afectada por las unidades que se esperan dejar almacenadas, de la misma forma que se deducen las que fueron producidas anteriormente.
+
+        .col-auto
+          figure(data-aos="zoom-in")
+            img(src='@/assets/curso/temas/tema1/gallery-3.png', alt='').img125
+
+      .row
+        .col-auto
+          figure(data-aos="zoom-in")
+            img(src='@/assets/curso/temas/tema1/gallery-4.png', alt='').img125
+        .col-lg.align-start
+          p.my-3(style="position:relative") ● Al estar sujeto a factores ajenos, debe ser lo suficientemente flexible para ajustarse a los cambios de otras áreas. Si las ventas se ven incrementadas, por ejemplo, deberá incrementarse el volumen de la producción para lograr cumplir con los requerimientos comerciales.
     
     Separador
 
@@ -37,9 +66,9 @@
     p.mb-5(data-aos="fade-right") Para llevar a cabo la producción es importante tener en cuenta la totalidad de los recursos necesarios y su equivalente en dinero, de tal forma que no se presenten interrupciones en el proceso. Un plan de producción debe ser lo suficientemente preciso para indicar la cantidad necesaria de cada recurso y el momento en el que será utilizado. En este sentido, es conveniente considerar los tres factores que se integran a través del plan de producción.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 1.2.1 Costos de producción
+      h3#t_1_1 Costos de producción
 
-    p(data-aos="fade-right") Cualquier bien o mercancía producida requiere de tres elementos: materia prima, mano de obra y otros costos indirectos de fabricación; la suma de todos ellos constituye el costo de producción. Por lo que se presenta la descripción para comprender los conceptos mencionados:
+    p(data-aos="fade-right") Cualquier bien o mercancía producida requiere de tres elementos: <strong>materia prima, mano de obra y otros costos indirectos de fabricación;</strong> la suma de todos ellos constituye el costo de producción. Por lo que se presenta la descripción para comprender los conceptos mencionados:
 
     img.mb-3.p-4.mx-auto(src="@/assets/curso/temas/tema1/img-3.svg")
 
@@ -135,52 +164,46 @@
     p.mb-5(data-aos="fade-right") La coordinación de cada una de las actividades a ejecutar posibilitará el uso eficiente de todos los recursos, por lo que se recomienda el uso de herramientas que permitan visualizar los horizontes de tiempo de una manera clara y efectiva, de tal forma que todos los participantes de la producción comprendan el cronograma. Para llevar a cabo esta labor se sugiere el uso de una de las herramientas más populares en la gestión de proyectos.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 1.2.3 Diagrama de Gantt
+      h3#t_1_1 Diagrama de Gantt
 
     p.mb-5(data-aos="fade-right") Consiste en un gráfico de barras horizontales utilizado para representar un cronograma de manera visual. Cada barra del diagrama representa una actividad o tarea, y su longitud, el tiempo necesario para ejecutarla. Su diseño permite coordinar varias tareas de manera simultánea o secuencial, involucrando tantas como el proyecto requiera. Según el portal Asana.com (2020), las ventajas más significativas de los diagramas de Gantt son:
 
-    .row.justify-content-center.mb-5
-      .col-lg-8.col-12
-        ImagenInfografica.color-primario
-
-          template(v-slot:imagen)
-              figure
-                img(src='@/assets/curso/temas/tema1/img-9.svg', alt='')
-
-          .tarjeta.color-acento-contenido2.p-3(x="39.5%" y="21%" numero="+")
-            p Trazar visualmente el plan y el cronograma de un proyecto:  se muestra cuál es el trabajo, cuándo y en qué orden se hará.
-
-          .tarjeta.color-acento-botones.p-3(x="56.5%" y="48%" numero="+")
-            p Para organizar proyectos complejos: su sistema permite la compilación de una gran cantidad de tareas a la vez.
-
-          .tarjeta.color-primario.p-3(x="65.9%" y="60%" numero="+")
-            p Con el fin de coordinar múltiples involucrados: permiten designar las tareas a muchas personas a la vez. Cada cual puede tener uno o varios responsables.
-
-          .tarjeta.color-secundario.p-3(x="77.9%" y="85.9%" numero="+")
-            p Se pueden estimar los cronogramas y cargas de trabajo: desde su concepción otorgan la facultad de saber con anticipación cuánto tiempo y cuánta mano de obra requerirá cada actividad en específico.
+    .col-xl-10.mx-auto.mb-5
+      .titulo-sexto.color-primario(data-aos="fade-right")
+        h5 Figura 1.
+        span <em>Características del Diagrama de Gantt</em>
+      img.d-md-block(src="@/assets/curso/temas/tema1/gallery-5.svg" data-aos="fade-right")
 
     p.mb-5(data-aos="fade-right") Para diseñar un diagrama de Gantt se requiere como insumo principal el cronograma elaborado en el plan de producción. Como recomendación se describe la siguiente metodología a seguir.
 
-    .row.justify-content-center.mb-5
-      .col-lg-8.col-12
-        ImagenInfografica.color-primario
+    .row.justify-content-center.align-items-center.mb-5
+      .col-12.col-md-6.mb-5.mb-lg-0(data-aos="fade-left")
+        .row 
+          .col-lg-12
+            .cajon.color-secundario.p-4.mb-4
+              p El diagrama de Gantt es una herramienta de gestión de proyectos que visualiza las tareas, plazos y dependencias de un proyecto en forma de gráfico de barras.  
 
-          template(v-slot:imagen)
-              figure
-                img(src='@/assets/curso/temas/tema1/img-10.svg', alt='')
+        LineaTiempoD.color-acento-botones
+          .row(numero="A" titulo="Definir el periodo de tiempo ")
+            .col-12.mb-4.mb-md-0
+              p.text-small Debe ser tan extenso como el ciclo productivo de la empresa, esto abarca todas las actividades relacionadas con la producción del bien a vender, es decir, desde la orden de compra de materia prima, hasta la puesta en inventario del producto terminado. 
 
-          .tarjeta.color-acento-contenido2.p-3(x="12%" y="42%" numero="+")
-            p Debe ser tan extenso como el ciclo productivo de la empresa, esto abarca todas las actividades relacionadas con la producción del bien a vender, es decir, desde la orden de compra de materia prima, hasta la puesta en inventario del producto terminado.
+          .row(numero="B" titulo="Relación de tareas con fechas de ejecución ")
+            .col-12.mb-4.mb-md-0
+              p.text-small Deben agregarse las tareas en sentido vertical con sus fechas de inicio y final. El horizonte de tiempo se extiende de manera horizontal, por lo que aquellas que necesiten de un periodo más largo, tendrán una mayor longitud. 
 
-          .tarjeta.color-acento-botones.p-3(x="90%" y="42%" numero="+")
-            p Deben agregarse las tareas en sentido vertical con sus fechas de inicio y final. El horizonte de tiempo se extiende de manera horizontal, por lo que aquellas que necesiten de un periodo más largo, tendrán una mayor longitud.
+          .row(numero="C" titulo="Especificar dependencias")
+            .col-12.mb-4.mb-md-0
+              p.text-small Durante la ejecución de los procesos de producción, algunas tareas dependen de otras, por lo que es crucial establecer un orden de ejecución. Esto permite visualizar la interrelación entre las actividades y garantiza una planificación eficiente y precisa del proyecto. 
 
-          .tarjeta.color-primario.p-3(x="90%" y="59%" numero="+")
-            p Toda actividad productiva está sujeta a imprevistos que modifiquen los periodos de finalización de las tareas. La supervisión permanente del diagrama permitirá hacer modificaciones cuando así lo requiera la situación, otorgando más elementos de juicio para la entrega de los bienes terminados. Con esto, se evita que se programen entregas de productos en fechas en las que aún no se encuentran terminados.
+          .row(numero="D" titulo="Supervisión y control")
+            .col-12.mb-4.mb-md-0
+              p.text-small La supervisión permanente del diagrama permitirá hacer modificaciones cuando así lo requiera la situación, otorgando más elementos de juicio para la entrega de los bienes terminados. Con esto, se evita que se programen entregas de productos en fechas en las que aún no se encuentran terminados. 
 
-          .tarjeta.color-secundario.p-3(x="12%" y="59%" numero="+")
-            p En la ejecución de los procesos de producción, existen tareas que son dependientes de otras, hacer claridad sobre estas permite anticiparse a retrasos que afecten varias actividades del cronograma inicial.
-
+      .col-12.col-md-4.mb-5.mb-lg-0.d-none.d-sm-none.d-md-block
+        figure
+          img(src='@/assets/curso/temas/tema1/gallery-6.png', alt='')
+    
     p.mb-5(data-aos="fade-right") Si bien existen herramientas especializadas en el diseño de este diagrama, es posible elaborar una versión simplificada del mismo haciendo uso de una hoja de cálculo. Retomando el ejemplo de la granja de producción avícola, se elabora la siguiente tabla y su diagrama correspondiente. 
 
     .col-xl-10.mx-auto.mb-5
@@ -191,7 +214,7 @@
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Figura 1.
+        h5 Figura 2.
         span <em>Diagrama de Gantt</em>
       img.d-md-block(src="@/assets/curso/temas/tema1/img-12.svg" data-aos="fade-left")
 
@@ -200,18 +223,18 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 1.3 Órdenes de producción
 
-    p.mb-5(data-aos="fade-right") El sistema de costeo por órdenes de producción permite determinar el costo de un lote de producto terminado en concreto. Con esta metodología se busca determinar el costo de la materia prima, mano de obra y los costos directos de fabricación para un número de unidades; un sistema que resulta de especial utilidad cuando se trabaja por encargos y se busca estimar la utilidad para cada pedido.
+    p(data-aos="fade-right") El sistema de costeo por órdenes de producción permite determinar el costo de un lote de producto terminado en concreto. Con esta metodología se busca determinar el costo de la materia prima, mano de obra y los costos directos de fabricación para un número de unidades; un sistema que resulta de especial utilidad cuando se trabaja por encargos y se busca estimar la utilidad para cada pedido.
 
     p.mb-5(data-aos="fade-right") En la siguiente figura se presenta, a modo de ejemplo, un esquema a utilizar a la hora de realizar órdenes de producción. El diligenciamiento de este suele estar precedido por una solicitud comercial, es decir, se planea y determina el costo de la producción del lote una vez se ha vendido una cantidad determinada de productos.
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Figura 2.
+        h5 Figura 3.
         span <em>Formato de orden de producción</em>
       img.d-md-block(src="@/assets/curso/temas/tema1/img-13.svg" data-aos="fade-left")
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 1.3.1 Características
+      h3#t_1_1 Características
 
     p.mb-4(data-aos="fade-right") La utilización de las órdenes de producción implica que el proceso productivo dará inicio una vez se emitan, pues en ellas se consigna el tipo y número de unidades a producir; de otra parte, las órdenes de producción suelen contar con las siguientes características.
     
@@ -227,9 +250,9 @@
         p ● La producción usualmente requiere de un pedido previo, es decir, se trabaja por encargo que, a su vez, suele obedecer a ventas efectuadas a los clientes.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 1.3.2 Diligenciamiento
+      h3#t_1_1 Diligenciamiento
 
-    .d-flex.flex-wrap
+    .d-flex.flex-wrap.mb-5
       .col-xl-8.pe-xl-4.d-flex.flex-wrap.align-items-center.order-2.order-xl-1
         .cajon.color-primario.p-4.d-flex.flex-wrap(data-aos="fade-right")
           .col-md-11.ps-lg-4
@@ -237,9 +260,11 @@
             p Una vez se definen los insumos, se les debe asignar el valor correspondiente para determinar el costo total de la orden de producción y, finalmente, dividir por el número de unidades elaboradas para obtener el costo unitario.
       img.mb-4.mb-xl-0.col-xl-4.mx-auto.order-1.order-xl-2(src="@/assets/curso/temas/tema1/img-14.png" data-aos="fade-left" style="max-width: 400px")
 
+    p En el siguiente recurso se abordará el diligenciamiento de una orden de producción, la cual involucra diversos aspectos que son clave para el funcionamiento eficiente de una granja avícola. 
+
     .row.justify-content-center.align-items-center.tarjeta--azul-custom.mb-0.p-4.pt-5
       .col-lg-8.col-12(data-aos="fade-down")
-        ImagenInfografica.color-primario
+        ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/img-15.svg', alt='')
@@ -272,6 +297,8 @@
 
     p.mb-4(data-aos="fade-right") Otro factor importante que se debe tener en cuenta en la gestión de una granja avícola es identificar la cantidad de productos que puede producir, para lo cual requiere conocer los siguientes aspectos.
 
+    Separador
+    
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 1.4 Capacidad instalada
 
@@ -293,7 +320,7 @@
     p.mb-4(data-aos="fade-right") También se hace necesario realizar algunas mediciones para tener claro el proceso de gestión de una granja avícola.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 1.4.1 Medición
+      h3#t_1_1 Medición
 
     .row.mb-5
       .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
@@ -304,18 +331,16 @@
         p Por ejemplo, una empresa que elabora envases plásticos hace uso de dos máquinas industriales que pueden producir cada una hasta 50 unidades por hora. 
         p Para determinar la capacidad teórica se debe multiplicar el número de unidades por hora por las horas del día, de esta forma se puede definir una capacidad teórica en los intervalos de tiempo que sean más beneficiosos para el análisis, así:
 
-    p.mb-4(data-aos="fade-right") Para elaborar el calendario presupuestal es recomendable seguir una serie de pasos que garanticen que todos los aspectos relevantes en la producción han sido tenidos en cuenta. Se sugiere que cualquier proceso de gestión de tiempos considere los siguientes aspectos.
-
     img.d-md-block.mb-5(src="@/assets/curso/temas/tema1/img-20.svg" data-aos="fade-left")
 
     p.mb-4(data-aos="fade-right") A partir de esta capacidad teórica, se pueden deducir los periodos de tiempo improductivos que surgen por regulaciones normativas o por las limitaciones propias de la maquinaria. Suponiendo que el fabricante de esta recomienda el uso diario no mayor a 16 horas, por lo que la empresa ha de habituarse a esta condición contratando el personal operativo suficiente para prestar dos turnos de 8 horas por día. De lo anterior se deduce que 8 de cada 24 horas, la maquinaria estará en reposo o en mantenimiento para garantizar su vida útil, por lo que la capacidad instalada se calculará a partir de la proporción, de la siguiente forma:
 
     img.mb-4.p-4.mx-auto(src="@/assets/curso/temas/tema1/img-21.svg")
 
-    p.mb-4(data-aos="fade-right") Por otro lado, se hace necesario revisar otros factores que alteran el proceso de gestión de una granja avícola al funcionar como empresa, lo que se verá en el siguiente ítem.
+    p.mb-5(data-aos="fade-right") Por otro lado, se hace necesario revisar otros factores que alteran el proceso de gestión de una granja avícola al funcionar como empresa, lo que se verá en el siguiente ítem.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 1.4.2 Factores limitantes
+      h3#t_1_1 Factores limitantes
 
     p.mb-4(data-aos="fade-right") Existe multiplicidad de factores que pueden limitar la capacidad instalada de producción, la mayoría de ellos corresponden a factores ajenos a la administración, por lo que deben ser tenidos en cuenta a la hora de establecer políticas para incrementar la productividad. Las situaciones más recurrentes y a tener en cuenta a la hora de efectuar el cálculo de capacidad instalada son las que se mencionan en el siguiente objeto de aprendizaje.
 
@@ -359,6 +384,8 @@
 
     p.mb-4(data-aos="fade-right") A continuación, se tienen en cuenta otros elementos que se deben tener en cuenta en la gestión de una empresa avícola.
 
+    Separador
+
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 1.5 Trabajo en equipo
 
@@ -371,7 +398,7 @@
         p Para que se dé el trabajo en equipo debe existir una voluntad para trabajar de manera conjunta con terceros, siendo conscientes que el conocimiento de cada integrante del equipo podrá aportar a la ejecución de las tareas desde una perspectiva distinta, a continuación, se presentan algunos elementos importantes.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 1.5.1 Características
+      h3#t_1_1 Características
 
     p.mb-4(data-aos="fade-right") El trabajo en equipo requiere contar con una serie de cualidades o características para que aporte más que el trabajo individual, por lo que se describen aquellas que representan una mayor ventaja.
 
@@ -382,7 +409,7 @@
             h4 Objetivos en común 
             p Se deben identificar aquellas metas que comparten los integrantes del equipo, de esta forma será más sencillo dirigir los esfuerzos a un propósito claro.
 
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img-28.png', alt='Texto que describa la imagen')
 
@@ -391,7 +418,7 @@
             h4 Funciones por trabajador
             p Definir las labores que ejecutará cada integrante de acuerdo con su conocimiento y fortalezas hará que se incremente la efectividad, puesto que cada trabajador aportará desde una posición diferente.
 
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img-29.png', alt='Texto que describa la imagen')
 
@@ -400,7 +427,7 @@
             h4 Interdependencia
             p La secuencia de tareas a desarrollar debe crear una red en la que cada integrante se apoye en los demás, de forma que se complementen entre sí.
 
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img-30.png', alt='Texto que describa la imagen')
 
@@ -409,7 +436,7 @@
             h4 Reglas claras
             p Definidas por el mismo equipo o por su líder, enmarcar el trabajo dentro de una serie de reglas evita malentendidos y promueve la ejecución del trabajo de una forma organizada.
 
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img-31.png', alt='Texto que describa la imagen')
 
@@ -418,7 +445,7 @@
             h4 Comunicación acertada
             p Debe existir un flujo constante de comunicación entre los miembros del equipo, La retroalimentación es importante para atacar aquellas debilidades que pasarían desapercibidas al realizar las tareas de forma individual.
 
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img-32.png', alt='Texto que describa la imagen')
 
@@ -427,7 +454,7 @@
             h4 Responsabilidad
             p Así como se sugiere una designación de tareas, también se deben delimitar las responsabilidades. Aunque los objetivos se alcancen de manera conjunta, cada integrante debe responder por su porción del trabajo a realizar.
 
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img-33.png', alt='Texto que describa la imagen')
 
@@ -436,28 +463,40 @@
             h4 Liderazgo
             p Todo trabajo que implique la coordinación de dos o más personas requerirá de un buen líder. Su función será la de encaminar las tareas para alcanzar los objetivos y dirimir las discusiones que puedan surgir por posiciones contrarias. 
 
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema1/img-34.png', alt='Texto que describa la imagen')
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 1.5.2 Técnicas 
+      h3#t_1_1 Técnicas 
 
-    p.mb-4(data-aos="fade-right") El desempeño de los equipos de trabajo puede verse afectado por técnicas enfocadas a potenciar las habilidades de sus integrantes. El portal <em>Coworkingfy (s.f.)</em> presenta cuatro (4) métodos basados en procedimientos y procesos lógicos para lograr este objetivo a saber:
+    p.mb-4 El desempeño de los equipos de trabajo puede verse afectado por técnicas enfocadas a potenciar las habilidades de sus integrantes. El portal <em>Coworkingfy (s.f.)</em> presenta cuatro (4) métodos basados en procedimientos y procesos lógicos para lograr este objetivo a saber:
+    h5 Técnica para trabajar en equipo. 
+    p.mb-4 Las técnicas de trabajo en equipo son estrategias o instrumentos que se aplican a un colectivo laboral. Su propósito es la creación de un ambiente de trabajo más propicio para mejorar las habilidades de cada persona. Estas sirven para la organización y prospección de metas en la calidad de trabajo. Su objetivo principal es la productividad y gratificación grupal.
 
     TabsA.color-acento-botones.mt-5
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Dinámica de grupos")
         .row
-          img.p-1.mx-auto(src="@/assets/curso/temas/tema1/img-35.svg")
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Solución de problemas")
+          p Las dinámicas de equipo se basan en técnicas de trabajo de discusión verbal. Su objetivo es fomentar el diálogo y la confrontación de ideas en un grupo, centrándose en categorías como generar ideas, alcanzar consenso y organizarlas. Por ejemplo, el brainstorming es una técnica que estimula la creatividad y el intercambio de ideas sin censuras ni críticas. Para alcanzar el consenso, se busca el consentimiento total de los miembros del equipo, reduciendo opciones de solución hasta llegar a acuerdos aceptados por todos. La reducción de listado es una técnica que permite seleccionar las mejores ideas a través de filtros y criterios. Para organizar las ideas, se analizan, interpretan y dividen en categorías, como el diagrama de causa y efecto, que ayuda a identificar las causas principales de un problema.  
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Solución de problemas en grupo")
         .row
-          p Es una técnica que requiere de mayor planeación, pues se busca aislar el problema para luego plantear una solución más estructurada. El diagrama de Gantt, visto previamente en este componente, es una de las metodologías aplicables bajo esta técnica, pues permite registrar las actividades enfocadas a resolver el problema, designar responsables y proponer horizontes de tiempo. Esta técnica se complementa con la elaboración de un plan de acción, que incluye los objetivos a cumplir a futuro.
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Técnicas de experimentación")
+          p La técnica de solución de problemas en grupo te permite abordar un problema de manera estructurada y científica. Utilizando métodos científicos, trabajarás en un diseño y aplicación de soluciones. Una herramienta útil para esta técnica es el Diagrama de Gantt. 
+          p Esta técnica se basa en el enfoque propuesto por Einstein y sus colaboradores de la Universidad de Harvard, que parte de la definición del problema, identificación de causas y aplicación de soluciones. Al finalizar, se complementa con la elaboración de un plan de acción, que incluye objetivos a corto, mediano y largo plazo, estrategias y recursos necesarios. 
+          p Para utilizar el esquema de Gantt en la creación del plan de trabajo, debes responder las preguntas esenciales sobre el objetivo, fecha de conclusión, participantes, ubicación, forma de realización y la razón para eliminar el problema.
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="Experimentación")
         .row
-          p Este sistema incentiva la resolución de problemas a través de la experimentación, sometiendo a prueba diferentes alternativas para resolver problemáticas. Con ello se busca que el personal se mantenga en una mentalidad de mejoramiento continuo, aportando nuevos conocimientos con cada nueva estrategia aplicada a un mismo problema.
+          p Esta técnica es un proceso permanente de someter a prueba nuevas formas de aplicación. En el área de los clientes, de la reducción de costos, elevación de calidad, mayor productividad, etc. Se basa en la construcción de un marco apropiado para trabajar en equipo. Más que una técnica de trabajo en equipo es un estilo de pensamiento. Sin embargo, es importante recurrir a él para mejorar la calidad en las empresas. 
+          p Aplicar esta técnica es una forma de estimular al personal a una búsqueda constante de mejores formas de hacer las cosas. Experimentar en este ámbito genera conocimientos que, a su vez, son la probabilidad de ganar calidad. 
       .tarjeta.color-acento-contenido--borde.p-4(titulo="Informarse y aprender")
         .row
-          p Es una técnica de amplia aplicación en las organizaciones. Con ella se busca que el personal se mantenga en constante capacitación para refinar sus tareas con el paso del tiempo. Es responsabilidad de las directivas otorgar las herramientas necesarias para que se logre este objetivo; para ello se puede disponer de sistemas como las capacitaciones, rotaciones de cargos, talleres prácticos, entre otros.
+          p <strong>Esta técnica abarca algunos temas:</strong>
+          p - Objetivos y estrategia de la empresa. 
+          p - Comportamiento de los productos y servicios de la organización.
+          p - Planes de acción de la competencia. 
+          p Esta técnica para trabajar en equipo es de las más importantes. Es el mecanismo para que una empresa funcione. Por lo tanto, el personal debe estar bien informado y encontrarse en constante aprendizaje para mejorar la calidad. 
+          p <strong>Para asegurarse de que el equipo está informado y en constante aprendizaje, se pueden implementar diversas estrategias:</strong>
+          p Chat de empresa, Boletines,  Periódicos murales, Conferencias, Talleres, Visitas técnicas, Entretenimientos, Actividades colectivas, Acceso a bibliografía actualizada , Rotación de puesto. 
+          p Esto ayudará a que el equipo de trabajo tenga la oportunidad de capacitarse para estar más preparado y así, mejorar su rendimiento.
 
 
 </template>

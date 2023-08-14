@@ -14,6 +14,8 @@
             p Toda herramienta de planeación requiere de una fase de control y supervisión que permita tener claridad sobre si las estrategias implementadas alcanzaron los resultados esperados. Esta retroalimentación permite que se modifique la planeación para refinar los procesos y maximizar la generación de valor en la empresa. Los informes de ejecución cumplen con este propósito, puesto que miden el nivel de cumplimiento del plan de producción y todos los elementos que lo conforman.
       img.mb-4.mb-xl-0.col-xl-4.mx-auto.order-1.order-xl-2(src="@/assets/curso/temas/tema2/img-36.png" data-aos="fade-left" style="max-width: 400px")
 
+    Separador
+
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 2.1 Características
 
@@ -58,7 +60,7 @@
         span <em>Modelo de informe de ejecución general</em>
       img.d-md-block(src="@/assets/curso/temas/tema2/img-37.svg" data-aos="fade-left")
 
-    p.mb-5(data-aos="fade-right") El principal objetivo del informe de ejecución es dejar en evidencia el nivel de cumplimiento de metas de la empresa. Para ello, la comparación más evidente consiste en poner en paralelo las expectativas y la realidad; así, un cuadro con tres columnas: ejecutado, presupuestado y su diferencia, podría aportar la información cuantitativa más relevante. No obstante, este tipo de informes puede complementarse con diagramas o gráficos de barras comparativas.
+    p.mb-5(data-aos="fade-right") Además, es vital también conocer cómo se puede elaborar un informe del área de producción, por lo que puede ver un diseño en la siguiente tabla. 
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
@@ -93,9 +95,7 @@
 
     p.mb-4(data-aos="fade-right") Siguiendo con la idea anterior, es altamente recomendable elaborar más de un presupuesto, afectado por el comportamiento de diferentes áreas, creando una sucesión de escenarios que sirvan como comparativa con la ejecución posterior. Para llevar a cabo esta labor, surge una herramienta conocida como el presupuesto flexible, el cual busca establecer metas diferentes cuando los escenarios originales no se cumplen.
 
-    p.mb-4(data-aos="fade-right") Por ejemplo, si las ventas anuales solo alcanzaron 60 % de las presupuestadas, no se puede asumir que la reducción de los gastos por comisiones de ventas en 10 % del presupuesto original sea algo positivo. Es cierto que se está gastando menos de lo presupuestado en las comisiones a vendedores, pero esto no obedece a una correcta gestión del área comercial, sino todo lo contrario, la reducción comercial es solo una consecuencia lógica de los bajos niveles de venta.
-
-    p.mb-4(data-aos="fade-right") Este tipo de presupuesto requiere un conocimiento profundo de todos los procesos, puesto que la diversidad de escenarios requiere que se tengan claras las estructuras de costos fijos y variables. Es evidente que a menores ventas, menores niveles de producción, por lo que los costos directos, como la materia prima, también se van a ver disminuidos.
+    p.p-4.mb-4(style="background: #FFE8CE") Por ejemplo, si las ventas anuales solo alcanzaron 60 % de las presupuestadas, no se puede asumir que la reducción de los gastos por comisiones de ventas en 10 % del presupuesto original sea algo positivo. Es cierto que se está gastando menos de lo presupuestado en las comisiones a vendedores, pero esto no obedece a una correcta gestión del área comercial, sino todo lo contrario, la reducción comercial es solo una consecuencia lógica de los bajos niveles de venta. <br><br> Este tipo de presupuesto requiere un conocimiento profundo de todos los procesos, puesto que la diversidad de escenarios requiere que se tengan claras las estructuras de costos fijos y variables. Es evidente que a menores ventas, menores niveles de producción, por lo que los costos directos, como la materia prima, también se van a ver disminuidos.
 
     p.mb-4(data-aos="fade-right") De nuevo, y como en el ejemplo anterior, esto no es gracias a mejores precios o a políticas implementadas para un manejo más eficiente de la producción; sino que para producir menos unidades se requieren menos materiales. Los costos fijos, por otra parte, probablemente se mantengan constantes dado que no se ven afectados por los niveles de producción.
 
@@ -104,7 +104,7 @@
     .col-xl-10.mx-auto.mb-5
       img.d-md-block(src="@/assets/curso/temas/tema2/img-40.svg" data-aos="fade-left")
 
-    p.mb-5(data-aos="fade-right") El estudio de las ventas alcanzadas podría interpretarse desde dos perspectivas: ¿se están vendiendo más unidades o las mayores ventas se deben a un incremento en el precio? Sea cual sea la respuesta se derivarán nuevos análisis, por ejemplo, ¿el nuevo precio se debe a la inflación o al incremento del costo de las materias primas?
+    p.mb-4(data-aos="fade-right") El estudio de las ventas alcanzadas podría interpretarse desde dos perspectivas: ¿se están vendiendo más unidades o las mayores ventas se deben a un incremento en el precio? Sea cual sea la respuesta se derivarán nuevos análisis, por ejemplo, ¿el nuevo precio se debe a la inflación o al incremento del costo de las materias primas?
 
     p.mb-4(data-aos="fade-right") Para ilustrar el caso anterior, se presenta un presupuesto de producción estático y uno flexible.
 

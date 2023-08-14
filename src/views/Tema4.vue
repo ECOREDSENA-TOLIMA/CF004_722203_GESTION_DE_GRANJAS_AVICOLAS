@@ -17,26 +17,26 @@
 
     p.mb-5(data-aos="fade-right") El alcance del plan de mejora abarca todas las áreas de la empresa, esto se debe a que cualquier proceso dentro del sistema es susceptible de mejora. Debido a ello, estos son responsabilidad de las directivas o la gerencia general, este grupo de personas está acompañado de los directores de cada área, sin embargo, durante el proceso de diseño resulta de vital importancia contar con la retroalimentación del personal operativo, quienes pueden aportar hallazgos que pasen desapercibidos en los niveles más altos de la organización.
 
+    Separador
+
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 4.1 Hallazgos
 
     p.mb-5(data-aos="fade-right") El proceso de supervisión y evaluación finaliza con la recopilación de hallazgos, entendidos como la identificación de una problemática; para lo cual el Departamento Administrativo del Servicio Civil Distrital los clasifica según el proceso así:
 
-    .tarjeta.color-acento-botones.p-3.mt-5.caja_flotante_azul.col-md-9.m-auto(data-aos="fade-right")
+    .tarjeta.color-primario.p-3.mt-5.caja_flotante_azul.col-md-9.m-auto.mb-5(data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-4.col-sm-2.col-lg-2
           img.p-4.imagen_flotante_animada(src="@/assets/curso/temas/tema4/decorador-1.svg")
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              .h4.mb-0 Departamento Administrativo del Servicio Civil Distrital
-              p.mt-3 Esta entidad en su sitio web menciona cómo recopila los hallazgos que sirven de base para identificar las problemáticas en la empresa.
+              .h4.mb-0(style="color: #FFFF") Departamento Administrativo del Servicio Civil Distrital
+              p.mt-3(style="color: #FFFF") Esta entidad en su sitio web menciona cómo recopila los hallazgos que sirven de base para identificar las problemáticas en la empresa.
             .col-sm-auto
-              a.boton.boton--b.color-acento-contenido(href="https://www.serviciocivil.gov.co/planes-de-mejoramiento" target="_blank")
+              a.boton.boton--b.color-acento-botones(href="https://www.serviciocivil.gov.co/transparencia/planeacion/planes-de-mejoramiento/planes-de-mejoramiento-internos" target="_blank")
                 span(style="color: #12263F !important;") Ir al sitio web
                 i.fas.fa-link(style="color: #12263F !important;")
-
-    Separador 
 
     .row.mb-5
       .col-md-6.col-lg.mb-5.mb-lg-0
@@ -74,6 +74,8 @@
 
     p.mb-5(data-aos="fade-right") Es a partir de estos hallazgos que la empresa puede implementar una planeación enfocada a corregir las no conformidades, prevenir las no conformidades potenciales y aprovechar las oportunidades de mejora. Finalmente, es indispensable que conozca qué se puede hacer de manera permanente para alcanzar el objetivo de producción y el porcentaje de venta al final del proceso productivo.
 
+    Separador
+
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 4.2 Paso para implementarlo
 
@@ -90,6 +92,8 @@
           li 
             .lista-ol
             p ● <strong>Propuesta de planificación:</strong> se debe diseñar un plan que sea viable y lo suficientemente flexible para implementar acciones adicionales a futuro. A la hora de estructurarlo se incorporan los hallazgos del paso anterior y se analizan las posibles soluciones haciendo uso de herramientas de planeación como por ejemplo: la lluvia de ideas o el diagrama de Gantt, explicados previamente en el componente.
+
+    p.mb-5 Una vez sean definidas las soluciones más efectivas, es necesario proponer las acciones y las tareas a realizar especificando los beneficios que se esperan obtener. Finalmente, se documenta todo el proceso en el plan de mejora. 
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
@@ -115,70 +119,68 @@
         span <em>Matriz de seguimiento de plan de mejora</em>
       img.d-md-block(src="@/assets/curso/temas/tema4/img-58.svg" data-aos="fade-left")
 
+    Separador
+
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 4.3 Acciones correctivas y de mejora
 
     p(data-aos="fade-right") Las acciones de un plan de mejora son aquellas actividades destinadas a eliminar una problemática o incrementar la eficiencia del proceso en evaluación. Su ciclo consiste en la su formulación, aplicación y posterior evaluación. Por un lado, las acciones correctivas buscan solucionar una no conformidad ya existente, es decir, una problemática que ya está presente; mientras que las acciones preventivas se enfocan en prevenir potenciales no conformidades, o en aprovechar las oportunidades de mejora; a continuación, se expondrán las fuentes y etapas.
 
-    ImagenInfograficaB.color-primario
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/temas/tema4/img-59-1.svg', alt='Texto que describa la imagen')
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-down")
+      .row.justify-content-center.align-items-center(titulo="Fuentes")
+        .col-lg-2.col-10.mb-lg-0.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema4/imagen-1.svg', alt='Fuentes')
+        .col-md-8.col-12
+          p Son aquellos motivos que llevan a la empresa a implementar las acciones correctivas y de mejora.
 
-      .tarjeta.color-acento-contenido.p-3(x="5%" y="17.5%" numero="+")
-        h5.mb-2 Fuentes
-        p.texto-negro Aquellos motivos que llevan a la empresa a implementar las acciones correctivas y de mejora. 
-        p.texto-negro Pueden ser:
+      .row.justify-content-center.align-items-center(titulo="Análisis de contexto")
+        .col-lg-2.col-10.mb-lg-0.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema4/imagen-2.svg', alt='Análisis de contexto')
+        .col-md-8.col-12
+          p El contexto de una organización está dado por factores internos como la cultura organizacional, los valores o el desempeño de la empresa; así como factores externos como los entornos legales, sociales o económicos.
+          p La comprensión de estos elementos puede llevar a identificar problemáticas a abordar, por ejemplo, el incumplimiento de una disposición legal. 
 
-      .tarjeta.color-acento-contenido.p-3(x="5%" y="30.5%" numero="+")
-        .h5.mb-2 Análisis de contexto
-        p.texto-negro El contexto de una organización está dado por factores internos como la cultura organizacional, los valores o el desempeño de la empresa; así como factores externos como los entornos legales, sociales o económicos. La comprensión de estos elementos puede llevar a identificar problemáticas a abordar, por ejemplo, el incumplimiento de una disposición legal.
-
-      .tarjeta.color-acento-contenido.p-3(x="5%" y="44%" numero="+")
-        .h5.mb-2 Partes interesadas 
-        p.texto-negro Son aquellos terceros que tienen influencia significativa en la empresa. Deben considerarse si, en caso de no cumplir con sus exigencias o expectativas, pueden afectar la sostenibilidad de la organización. Ejemplo de ellas son los proveedores, acreedores o clientes. De aquí pueden surgir acciones producto de problemáticas identificadas con incumplimientos en pagos o baja satisfacción con el producto.
-
-      .tarjeta.color-acento-contenido.p-3(x="5%" y="57.5%" numero="+")
-        .h5.mb-2 Análisis de indicadores
-        p.texto-negro La evaluación constante de los indicadores de gestión pueden aportar para la toma de medidas de forma oportuna. Por ejemplo, si se observa una tendencia a la baja en las unidades producidas, esto puede conllevar a acciones preventivas como un mantenimiento a la maquinaria o su renovación.
-
-      .tarjeta.color-acento-contenido.p-3(x="5%" y="70.5%" numero="+")
-        .h5.mb-2 Informes de no conformidad
-        p.texto-negro Los procedimientos de supervisión pueden arrojar resultados desfavorables en relación con el proceso en evaluación. Con el análisis de esta documentación se definirá si es necesario aplicar las acciones a que haya lugar.
-
-      .tarjeta.color-acento-contenido.p-3(x="5%" y="84%" numero="+")
-        .h5.mb-2 Informes de auditoría
-        p.texto-negro Cualquier auditoría interna o externa podrá aportar hallazgos al sistema de gestión de calidad, que deberán ser atendidos según las recomendaciones del auditor.
-
-      .tarjeta.color-acento-contenido.p-3(x="95%" y="18.5%" numero="+")
-        .h5.mb-2 Etapas
-        p.texto-negro El diseño e implementación de las acciones correctivas o de mejora deben seguir un conducto regular. 
-        p.texto-negro Estas son:
-
-      .tarjeta.color-acento-contenido.p-3(x="95%" y="31.5%" numero="+")
-        .h5.mb-2 Definir la acción
-        p.texto-negro Se debe contextualizar la acción que se va a ejecutar, definir las responsabilidades del personal y documentarlo.
-
-      .tarjeta.color-acento-contenido.p-3(x="95%" y="44.5%" numero="+")
-        .h5.mb-2 Análisis de causa
-        p.texto-negro En esta fase se debe profundizar en la causa de la problemática. A mayor nivel de detalle, más acertada serán las acciones para abordarla. 
-
-      .tarjeta.color-acento-contenido.p-3(x="95%" y="57.5%" numero="+")
-        .h5.mb-2 Planificación de actividades
-        p.texto-negro Diseñar un cronograma de las actividades a desarrollar definiendo el personal a cargo para cada una de ellas y asignando los recursos necesarios.
-
-      .tarjeta.color-acento-contenido.p-3(x="95%" y="71%" numero="+")
-        .h5.mb-2 Registro de resultados 
-        p.texto-negro Una vez aplicadas las acciones, se debe dejar registro por escrito de los pormenores, la forma como fueron efectuadas las actividades y las dificultades que se evidenciaron en su ejecución.
-
-      .tarjeta.color-acento-contenido.p-3(x="95%" y="84%" numero="+")
-        .h5.mb-2 Evaluación de las acciones 
-        p.texto-negro Finalmente se debe hacer una comparativa entre los indicadores previos y posteriores a la aplicación de las acciones. Es importante evidenciar la mejora en el proceso o el resultado para tener certeza de su efectividad. En caso de que se observe la continuación de la no conformidad u oportunidad de mejora, se deberá replantear la situación para definir si es necesario la aplicación de otras acciones.
-    
-
+      .row.justify-content-center.align-items-center(titulo="Partes interesadas")
+        .col-lg-2.col-10.mb-lg-0.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema4/imagen-3.svg', alt='Partes interesadas')
+        .col-md-8.col-12
+          p Son aquellos terceros que tienen influencia significativa en la empresa. Deben considerarse si, en caso de no cumplir con sus exigencias o expectativas, pueden afectar la sostenibilidad de la organización. Ejemplo de ellas son los proveedores, acreedores o clientes. De aquí pueden surgir acciones producto de problemáticas identificadas con incumplimientos en pagos o baja satisfacción con el producto.
       
-      
+      .row.justify-content-center.align-items-center(titulo="Análisis de indicadores")
+        .col-lg-2.col-10.mb-lg-0.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema4/imagen-4.svg', alt='Análisis de indicadores')
+        .col-md-8.col-12
+          p Las evaluaciones constantes de los indicadores de gestión pueden aportar para la toma de medidas de forma oportuna. Por ejemplo, si se observa una tendencia a la baja en las unidades producidas, esto puede conllevar a acciones preventivas como un mantenimiento a la maquinaria o su renovación.
 
+      .row.justify-content-center.align-items-center(titulo="Informes de no conformidad")
+        .col-lg-2.col-10.mb-lg-0.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema4/imagen-5.svg', alt='Informes de no conformidad')
+        .col-md-8.col-12
+          p Los procedimientos de supervisión pueden arrojar resultados desfavorables en relación con el proceso en evaluación. Con el análisis de esta documentación se definirá si es necesario aplicar las acciones a que haya lugar.
+          
+      .row.justify-content-center.align-items-center(titulo="Informes de auditoría")
+        .col-lg-2.col-10.mb-lg-0.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema4/imagen-6.svg', alt='Informes de auditoría')
+        .col-md-8.col-12
+          p Cualquier auditoría interna o externa podrá aportar hallazgos al sistema de gestión de calidad, que deberán ser atendidos según las recomendaciones del auditor. 
+
+      .row.justify-content-center.align-items-center(titulo="Etapas")
+        .col-lg-2.col-10.mb-lg-0.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema4/imagen-7.svg', alt='Etapas')
+        .col-md-8.col-12
+          p El diseño e implementación de las acciones correctivas o de mejora deben seguir un conducto regular. 
+          p <strong>Definición de acción:</strong> contextualizar, asignar responsabilidades y documentar la acción a ejecutar. 
+          p <strong>Análisis de causa:</strong> profundizar en la causa del problema para abordarlo con mayor precisión. 
+          p <strong>Planificación de actividades:</strong> diseñar un cronograma con personal y recursos asignados para cada actividad. 
+          p <strong>Registro de resultados:</strong> documentar los detalles, la ejecución de las actividades y las dificultades encontradas. 
+          p <strong>Evaluación de acciones:</strong> comparar indicadores antes y después de las acciones para evidenciar mejoras. Replantear si persiste la no conformidad u oportunidad de mejora y considerar la aplicación de nuevas acciones si es necesario.   
 
 
 

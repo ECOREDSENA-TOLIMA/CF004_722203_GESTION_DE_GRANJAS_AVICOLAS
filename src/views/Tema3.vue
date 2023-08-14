@@ -30,34 +30,27 @@
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Figura 3.
+        h5 Figura 4.
         span <em>Curva de oferta y demanda</em>
       img.d-md-block(src="@/assets/curso/temas/tema3/img-44.svg" data-aos="fade-left")
+    
+    Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 3.2 Cálculo de la demanda
 
     p.mb-5(data-aos="fade-right") La demanda de un producto es equivalente a la cantidad de compradores multiplicada por la cantidad de productos que adquiere cada uno de ellos en un periodo de tiempo determinado. Aunque a primera vista parece un cálculo sencillo, esconde muchos elementos objeto de estudio detrás. Por ejemplo, ¿Cómo determino el número de compradores que tendrá mi producto? O, ¿Cuántas unidades adquiere cada uno y con qué frecuencia?
 
-    .tarjeta.tarjeta--azul.p-4.mb-5
+    .tarjeta.tarjeta--azul2.p-4.mb-5
       SlyderA(tipo="b")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Segmentar el mercado
             br 
             p Los productos suelen estar enfocados a una parte de la población en concreto, pueden existir nichos más o menos grandes dependiendo del tipo de producto, pero una correcta segmentación permite descartar una cantidad significativa de personas que no cumplen con las condiciones o características para comprar el producto.
+            p Por ejemplo, si las dimensiones de la empresa no son muy significativas, el primer filtro lógico es seleccionar el municipio o la localidad donde se encuentra la fábrica; posteriormente, podría fraccionarse de acuerdo con la naturaleza del bien producido, si se trata de una empresa que vende maquillaje, la siguiente segmentación que puede hacerse es la de separar hombres y mujeres. 
 
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema3/img-45.png', alt='Texto que describa la imagen')
-
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h4 Segmentar el mercado
-            br
-            p Por ejemplo, si las dimensiones de la empresa no son muy significativas, el primer filtro lógico es seleccionar el municipio o la localidad donde se encuentra la fábrica; posteriormente, podría fraccionarse de acuerdo con la naturaleza del bien producido, si se trata de una empresa que vende maquillaje, la siguiente segmentación que puede hacerse es la de separar hombres y mujeres.
-
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema3/img-46.png', alt='Texto que describa la imagen')
 
@@ -67,7 +60,7 @@
             br
             p Una vez determinada la población objetivo, es necesario definir el mercado meta, es decir, aquella porción del segmento al que se le espera vender el producto. Siguiendo con el ejemplo anterior, se podrían descartar las mujeres menores de 15 años y mayores de 70, así el mercado meta estaría compuesto por mujeres entre 16 y 69 años; se puede ser más específico si se considera el rango de precios del producto y así descartar, por ejemplo, las mujeres que pertenecen a los estratos 1 y 2.
 
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema3/img-47.png', alt='Texto que describa la imagen')
 
@@ -77,7 +70,7 @@
             br
             p Salvo que el producto en mención sea completamente nuevo, puede estudiarse su comportamiento en el mercado con la venta de los competidores. Cuántas unidades se han vendido, cuáles son los precios promedio y las inconformidades que tienen sus clientes frecuentes. Es viable aplicar técnicas de recolección de información como: las entrevistas, o apegarse de información elaborada por otras fuentes como: las cámaras de comercio y otras entidades estatales.
 
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema3/img-48.png', alt='Texto que describa la imagen')
 
@@ -86,20 +79,11 @@
             h4 Estimar porción de mercado que se espera cubrir
             br
             p La inclusión de un producto en un mercado implica competir con otros proveedores de productos similares o sustitutos. Salvo en situaciones de monopolio, es prácticamente imposible lograr abarcar toda la demanda de un bien. Esta fase es la más subjetiva y con mayor margen de error, se trata de determinar qué cantidad del mercado podrá ocupar el bien producido.
-
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema3/img-49.png', alt='Texto que describa la imagen')
-
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h4 Estimar porción de mercado que se espera cubrir
-            br
             p Por ejemplo, si se venden mensualmente 1.000 kits de maquillaje en la población designada a las mujeres en el rango de edad y en la estratificación definida, la empresa puede aspirar a participar en el mercado con una venta de 100 de esos kits con similares características, en este caso estimaría una participación del 10 %. Por otro lado, muchos factores pueden afectar en este aspecto, tales como: la cantidad de competidores, el tamaño de la demanda y la capacidad de producción, entre otros.
 
-          .col-md-6
+          .col-md-5
             figure
-              img(src='@/assets/curso/temas/tema3/img-50.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema3/img-49.png', alt='Texto que describa la imagen')
 
         .row
           .col-md-6.mb-4.mb-md-0
@@ -108,7 +92,7 @@
             p Habiendo definido el número de unidades que se esperan vender en un periodo determinado, en este caso mensual, solo resta multiplicarlo por el precio de venta. Muchos factores intervienen en la determinación del precio; tales como: el caso del costo de producción, la política de entrada al mercad y la diferenciación o ventaja competitiva.
             p Por otro lado, algunas empresas compiten con un menor precio de venta y otros con productos de mayor calidad, por lo que, sea cual sea la estrategia, debe existir un margen de rentabilidad que permita cubrir los gastos de ventas y administrativos, lo que dejar utilidad suficiente para garantizar la permanencia en el mercado. 
 
-          .col-md-6
+          .col-md-5
             figure
               img(src='@/assets/curso/temas/tema3/img-51.png', alt='Texto que describa la imagen')
 
