@@ -409,7 +409,7 @@
             h4 Objetivos en común 
             p Se deben identificar aquellas metas que comparten los integrantes del equipo, de esta forma será más sencillo dirigir los esfuerzos a un propósito claro.
 
-          .col-md-5
+          .col-md-5.px-3
             figure
               img(src='@/assets/curso/temas/tema1/img-28.png', alt='Texto que describa la imagen')
 
@@ -418,7 +418,7 @@
             h4 Funciones por trabajador
             p Definir las labores que ejecutará cada integrante de acuerdo con su conocimiento y fortalezas hará que se incremente la efectividad, puesto que cada trabajador aportará desde una posición diferente.
 
-          .col-md-5
+          .col-md-5.px-3
             figure
               img(src='@/assets/curso/temas/tema1/img-29.png', alt='Texto que describa la imagen')
 
@@ -427,7 +427,7 @@
             h4 Interdependencia
             p La secuencia de tareas a desarrollar debe crear una red en la que cada integrante se apoye en los demás, de forma que se complementen entre sí.
 
-          .col-md-5
+          .col-md-5.px-3
             figure
               img(src='@/assets/curso/temas/tema1/img-30.png', alt='Texto que describa la imagen')
 
@@ -436,7 +436,7 @@
             h4 Reglas claras
             p Definidas por el mismo equipo o por su líder, enmarcar el trabajo dentro de una serie de reglas evita malentendidos y promueve la ejecución del trabajo de una forma organizada.
 
-          .col-md-5
+          .col-md-5.px-3
             figure
               img(src='@/assets/curso/temas/tema1/img-31.png', alt='Texto que describa la imagen')
 
@@ -445,7 +445,7 @@
             h4 Comunicación acertada
             p Debe existir un flujo constante de comunicación entre los miembros del equipo, La retroalimentación es importante para atacar aquellas debilidades que pasarían desapercibidas al realizar las tareas de forma individual.
 
-          .col-md-5
+          .col-md-5.px-3
             figure
               img(src='@/assets/curso/temas/tema1/img-32.png', alt='Texto que describa la imagen')
 
@@ -454,7 +454,7 @@
             h4 Responsabilidad
             p Así como se sugiere una designación de tareas, también se deben delimitar las responsabilidades. Aunque los objetivos se alcancen de manera conjunta, cada integrante debe responder por su porción del trabajo a realizar.
 
-          .col-md-5
+          .col-md-5.px-3
             figure
               img(src='@/assets/curso/temas/tema1/img-33.png', alt='Texto que describa la imagen')
 
@@ -463,7 +463,7 @@
             h4 Liderazgo
             p Todo trabajo que implique la coordinación de dos o más personas requerirá de un buen líder. Su función será la de encaminar las tareas para alcanzar los objetivos y dirimir las discusiones que puedan surgir por posiciones contrarias. 
 
-          .col-md-5
+          .col-md-5.px-3
             figure
               img(src='@/assets/curso/temas/tema1/img-34.png', alt='Texto que describa la imagen')
 
