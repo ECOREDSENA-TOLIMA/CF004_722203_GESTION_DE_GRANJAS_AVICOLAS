@@ -17,6 +17,8 @@
 
     p.mb-5(data-aos="fade-right") El comportamiento del mercado frente a un producto suele obedecer a diferentes causas, la mayoría de ellas escapan del alcance de la empresa. No obstante, uno de los elementos sobre los que existe un margen de maniobra y que tiene incidencia directa sobre el mercado es la determinación del precio.
 
+    Separador
+
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 3.1 Teoría de la oferta y la demanda
 
@@ -26,14 +28,15 @@
 
     p.mb-4(data-aos="fade-right") Lo que se busca al estudiar el mercado es buscar ese equilibrio donde el precio es lo suficientemente bajo para que los consumidores lo quieran, pero no tanto para que el costo de producción sea superior al de venta. Por ello, se insiste tanto en políticas de mejoramiento continuo de la producción, porque permiten hacer más eficiente la transformación de bienes, reduciendo su costo de fabricación y, por lo tanto, dando un mayor margen para reducir el precio de venta, generando así una fuerte ventaja competitiva frente a terceros en mercados competitivos.
 
-    p.mb-4(data-aos="fade-right") Se suele decir que el mercado tiene la capacidad de autorregularse bajo el modelo económico actual, esta afirmación proviene de la teoría, puesto que aquí se explica cómo el precio de los productos fluctúa de tal forma que si sube demasiado, los clientes no lo comprarán, por lo que el exceso de oferta para la baja demanda obligará a los productores a reducir el precio de venta lo suficiente como para salir de su inventario. Aquel punto en el que coinciden las pretensiones de la oferta con las de la demanda, es conocido como el equilibrio del mercado.
+    p.mb-5(data-aos="fade-right") Se suele decir que el mercado tiene la capacidad de autorregularse bajo el modelo económico actual, esta afirmación proviene de la teoría, puesto que aquí se explica cómo el precio de los productos fluctúa de tal forma que si sube demasiado, los clientes no lo comprarán, por lo que el exceso de oferta para la baja demanda obligará a los productores a reducir el precio de venta lo suficiente como para salir de su inventario. Aquel punto en el que coinciden las pretensiones de la oferta con las de la demanda, es conocido como el equilibrio del mercado.
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 4.
         span <em>Curva de oferta y demanda</em>
       img.d-md-block(src="@/assets/curso/temas/tema3/img-44.svg" data-aos="fade-left")
-    
+      figcaption Nota. Tomada de https://economipedia.com/definiciones/ley-de-oferta-y-demanda.html
+
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")

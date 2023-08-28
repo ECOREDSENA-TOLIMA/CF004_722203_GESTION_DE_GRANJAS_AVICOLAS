@@ -49,14 +49,14 @@
 
     p.mb-5(data-aos="fade-right") El principal objetivo del informe de ejecución es dejar en evidencia el nivel de cumplimiento de metas de la empresa. Para ello, la comparación más evidente consiste en poner en paralelo las expectativas y la realidad; así, un cuadro con tres columnas: ejecutado, presupuestado y su diferencia, podría aportar la información cuantitativa más relevante. No obstante, este tipo de informes puede complementarse con diagramas o gráficos de barras comparativas. 
 
-    .col-12.d-flex.flex-wrap.align-items-center.p-2.mb-4
+    .col-12.d-flex.flex-wrap.align-items-center.p-2.mb-5
       .col-12.col-md-3.col-lg-1
         img.mb-4.mb-md-0.mx-auto(src="@/assets/curso/temas/tema2/decorador-1.svg" data-aos="fade-right" style="max-width: 100px")
       p.col.mb-0.col-md-9.col-lg-11.ps-lg-4(data-aos="fade-left") Por otro lado, el informe debe estar contextualizado en cuanto espacio y tiempo. Es importante mencionar el periodo en evaluación, así como el área de la empresa a la cual le competen los datos. Si se busca enriquecerlo más, se pueden presentar datos de periodos anteriores, para medir la evolución histórica. <br><br>En este sentido, un informe de ejecución general podría presentarse de la siguiente forma: 
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Tabla 5.
+        h5 Tabla 7.
         span <em>Modelo de informe de ejecución general</em>
       img.d-md-block(src="@/assets/curso/temas/tema2/img-37.svg" data-aos="fade-left")
 
@@ -64,7 +64,7 @@
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Tabla 6.
+        h5 Tabla 8.
         span <em>Modelo de informe de ejecución del área de producción</em>
       img.d-md-block(src="@/assets/curso/temas/tema2/img-38.svg" data-aos="fade-left")
 
@@ -110,13 +110,13 @@
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Tabla 7.
+        h5 Tabla 9.
         span <em>Informe presupuesto de producción estático</em>
       img.d-md-block(src="@/assets/curso/temas/tema2/img-41.svg" data-aos="fade-left")
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Tabla 8.
+        h5 Tabla 10.
         span <em>Informe presupuesto de producción flexible</em>
       img.d-md-block(src="@/assets/curso/temas/tema2/img-42.svg" data-aos="fade-left")
 

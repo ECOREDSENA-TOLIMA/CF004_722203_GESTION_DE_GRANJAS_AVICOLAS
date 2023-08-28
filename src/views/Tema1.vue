@@ -25,39 +25,16 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2#t_1_1 1.1 Características
 
-    p(data-aos="fade-right") La elaboración de un presupuesto de producción es vital y suele contar con los siguientes factores.
+    p.mb-5(data-aos="fade-right") La elaboración de un presupuesto de producción es vital y suele contar con los siguientes factores.
 
-    PasosA.color-acento-contenido.mb-5(tipo="n")
-      .row
-        .col-lg
-          p.my-5(style="position:relative") ● Se encuentra estrechamente relacionado con el presupuesto comercial o de ventas, por lo que la cantidad de unidades que se esperan vender de un producto le permite al área de producción determinar cuántas unidades se deben producir para satisfacer la demanda.
+    .row.justify-content-center(data-aos="fade-right")
+      .col-xl-10.mx-auto
+        figure.desktop.d-none.d-sm-block.d-sm-none.d-lg-block.d-none.d-md-block
+          img(src="@/assets/curso//temas/tema1/cuadros-imagenes-1.svg" data-aos="zoom-in-up" alt="")
+        figure.movil.mt-0  
+          .row.justify-content-center.d-lg-none.d-md-none  
+            img(src="@/assets/curso/temas/tema1/cuadros-imagenes-2.svg" data-aos="zoom-in-up" alt="")
 
-        .col-auto
-          figure(data-aos="zoom-in")
-            img(src='@/assets/curso/temas/tema1/gallery-1.png', alt='').img125
-          
-      .row
-        .col-auto
-          figure(data-aos="zoom-in")
-            img(src='@/assets/curso/temas/tema1/gallery-2.png', alt='').img125
-        .col-lg.align-start
-          p.my-3(style="position:relative") ● Contempla todos los aspectos de la producción, no solo la cantidad de insumos y trabajo necesarios, sino también los tiempos para cada etapa de transformación, así como los requerimientos de capital (dinero).
-    
-      .row
-        .col-lg
-          p.my-5(style="position:relative") ● Debe tenerse en cuenta la política de inventarios. Por norma general, la fórmula para determinar las unidades a producir es: unidades a vender + inventario final – inventario inicial. Esto implica que la producción se ve afectada por las unidades que se esperan dejar almacenadas, de la misma forma que se deducen las que fueron producidas anteriormente.
-
-        .col-auto
-          figure(data-aos="zoom-in")
-            img(src='@/assets/curso/temas/tema1/gallery-3.png', alt='').img125
-
-      .row
-        .col-auto
-          figure(data-aos="zoom-in")
-            img(src='@/assets/curso/temas/tema1/gallery-4.png', alt='').img125
-        .col-lg.align-start
-          p.my-3(style="position:relative") ● Al estar sujeto a factores ajenos, debe ser lo suficientemente flexible para ajustarse a los cambios de otras áreas. Si las ventas se ven incrementadas, por ejemplo, deberá incrementarse el volumen de la producción para lograr cumplir con los requerimientos comerciales.
-    
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -68,20 +45,28 @@
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h3#t_1_1 Costos de producción
 
-    p(data-aos="fade-right") Cualquier bien o mercancía producida requiere de tres elementos: <strong>materia prima, mano de obra y otros costos indirectos de fabricación;</strong> la suma de todos ellos constituye el costo de producción. Por lo que se presenta la descripción para comprender los conceptos mencionados:
+    p.mb-5(data-aos="fade-right") Cualquier bien o mercancía producida requiere de tres elementos: <strong>materia prima, mano de obra y otros costos indirectos de fabricación;</strong> la suma de todos ellos constituye el costo de producción. Por lo que se presenta la descripción para comprender los conceptos mencionados:
+    
+    .col-xl-10.mx-auto.mb-5
+      .titulo-sexto.color-primario(data-aos="fade-right")
+        h5 Figura 1.
+        span <em>Costos de producción.</em>
+      img.d-md-block(src="@/assets/curso/temas/tema1/img-3.svg")
 
-    img.mb-3.p-4.mx-auto(src="@/assets/curso/temas/tema1/img-3.svg")
-
-    p.mb-3(data-aos="fade-right") Para el caso de una empresa dedicada a la producción de huevos, algunos de los costos involucrados podrían clasificarse así:
-
-    img.mb-4.p-4.mx-auto(src="@/assets/curso/temas/tema1/img-4.svg")
+    p.mb-5(data-aos="fade-right") Para el caso de una empresa dedicada a la producción de huevos, algunos de los costos involucrados podrían clasificarse así:
+    
+    .col-xl-10.mx-auto.mb-5
+      .titulo-sexto.color-primario(data-aos="fade-right")
+        h5 Tabla 1.
+        span <em>Costos en la producción de huevos</em>
+      img.d-md-block(src="@/assets/curso/temas/tema1/img-4.svg")
 
     p(data-aos="fade-right") Una vez se identifican los insumos necesarios para llevar a cabo la producción, es necesario determinar las cantidades y su valor en dinero. La metodología utilizada puede variar dependiendo de la naturaleza del costo; en el caso de la materia prima, usualmente proviene de la oferta de un proveedor, por lo que su valor es equivalente al precio de compra (más todos los otros costos asociados que son necesarios para poner en disposición el producto, como, por ejemplo: el gasto de transporte, entre otros) multiplicado por el número de unidades. 
     p.mb-5(data-aos="fade-right") Para poner en práctica sus conocimientos revise el siguiente ejemplo que permite determinar el costo mensual de la materia prima de una granja compuesta por 40 gallinas. 
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Tabla 1.
+        h5 Tabla 2.
         span <em>Valoración de materia prima</em>
       img.d-md-block(src="@/assets/curso/temas/tema1/img-5.svg" data-aos="fade-left")
 
@@ -89,7 +74,7 @@
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Tabla 2.
+        h5 Tabla 3.
         span <em>Valoración mano de obra</em>
       img.d-md-block(src="@/assets/curso/temas/tema1/img-6.svg" data-aos="fade-left")
 
@@ -105,7 +90,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 1.2.2 Calendario presupuestal
+      h3#t_1_1 Calendario presupuestal
 
     .row.mb-5
       .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
@@ -170,9 +155,10 @@
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Figura 1.
+        h5 Figura 2.
         span <em>Características del Diagrama de Gantt</em>
-      img.d-md-block(src="@/assets/curso/temas/tema1/gallery-5.svg" data-aos="fade-right")
+      img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/gallery-5.svg" data-aos="fade-right")
+      figcaption Nota. Adaptado de portal Asana.com (2020). 
 
     p.mb-5(data-aos="fade-right") Para diseñar un diagrama de Gantt se requiere como insumo principal el cronograma elaborado en el plan de producción. Como recomendación se describe la siguiente metodología a seguir.
 
@@ -208,13 +194,13 @@
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Tabla 3.
-        span <em>Valoración mano de obra</em>
+        h5 Tabla 4.
+        span <em>Cronograma de Actividades</em>
       img.d-md-block(src="@/assets/curso/temas/tema1/img-11.svg" data-aos="fade-left")
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Figura 2.
+        h5 Figura 3.
         span <em>Diagrama de Gantt</em>
       img.d-md-block(src="@/assets/curso/temas/tema1/img-12.svg" data-aos="fade-left")
 
@@ -229,9 +215,10 @@
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Figura 3.
+        h5 Figura 4.
         span <em>Formato de orden de producción</em>
       img.d-md-block(src="@/assets/curso/temas/tema1/img-13.svg" data-aos="fade-left")
+      figcaption Nota. Tomada Guarnizo y Cárdenas (2015) 
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h3#t_1_1 Características
@@ -254,10 +241,10 @@
 
     .d-flex.flex-wrap.mb-5
       .col-xl-8.pe-xl-4.d-flex.flex-wrap.align-items-center.order-2.order-xl-1
-        .cajon.color-primario.p-4.d-flex.flex-wrap(data-aos="fade-right")
+        .tarjeta.color-primario.p-4.d-flex.flex-wrap(style="background-color: #FFDBDB")(data-aos="fade-right")
           .col-md-11.ps-lg-4
-            p Al hacer una orden de producción, se espera que la elaboración de productos solicitados se alcance con los insumos presupuestados. El objetivo de esta es alistarlos para que estén disponibles en el momento correspondiente para llevar a cabo el proceso productivo con la menor cantidad de excedentes, evitando costos de almacenaje, así como la caducidad u obsolescencia. 
-            p Una vez se definen los insumos, se les debe asignar el valor correspondiente para determinar el costo total de la orden de producción y, finalmente, dividir por el número de unidades elaboradas para obtener el costo unitario.
+            p(style="color: #000") Al hacer una orden de producción, se espera que la elaboración de productos solicitados se alcance con los insumos presupuestados. El objetivo de esta es alistarlos para que estén disponibles en el momento correspondiente para llevar a cabo el proceso productivo con la menor cantidad de excedentes, evitando costos de almacenaje, así como la caducidad u obsolescencia. 
+            p(style="color: #000") Una vez se definen los insumos, se les debe asignar el valor correspondiente para determinar el costo total de la orden de producción y, finalmente, dividir por el número de unidades elaboradas para obtener el costo unitario.
       img.mb-4.mb-xl-0.col-xl-4.mx-auto.order-1.order-xl-2(src="@/assets/curso/temas/tema1/img-14.png" data-aos="fade-left" style="max-width: 400px")
 
     p En el siguiente recurso se abordará el diligenciamiento de una orden de producción, la cual involucra diversos aspectos que son clave para el funcionamiento eficiente de una granja avícola. 
@@ -269,15 +256,15 @@
             figure
               img(src='@/assets/curso/temas/tema1/img-15.svg', alt='')
 
-          .tarjeta.color-secundario.p-3(x="28%" y="42%" numero="3")
+          .tarjeta.color-primario.p-3(x="28%" y="42%" numero="3")
             .h5.mb-2 <i>Costos Indirectos</i>
             p Se efectúa la misma proporción que con el empleado, por lo que los costos indirectos de fabricación mensuales son los siguientes: por concepto de aseo y desinfección de la granja: $600.000, el pago de servicios públicos (agua y luz) es en promedio de $100.000 y el costo de la cascarilla de arroz asciende a $40.000. 
 
-          .tarjeta.color-secundario.p-3(x="60%" y="50%" numero="2")
+          .tarjeta.color-primario.p-3(x="60%" y="50%" numero="2")
             .h5.mb-2 <i>Mano de Obra</i>
             p La granja cuenta con un solo operario cuyo salario básico es de $1.000.000, adicionalmente cuenta con las prestaciones de ley equivalentes a 30 % del ingreso básico, también se debe cancelar la seguridad social a las entidades correspondientes por un valor equivalente al 20 % del salario. Dado que la orden de producción se lleva a cabo en una semana, el costo del empleado debe tomarse de manera proporcional (una cuarta parte del salario).
 
-          .tarjeta.color-secundario.p-3(x="30%" y="73%" numero="1")
+          .tarjeta.color-primario.p-3(x="30%" y="73%" numero="1")
             .h5.mb-2 <i>Materia Prima</i>  
             p Se estima que las aves consumen 84 kilogramos de concentrado semanalmente, la compra se efectúa mensualmente a un proveedor que la ofrece a razón de $2.000/kg incluida su entrega en la granja.
             p Los huevos deben entregarse en canastas de cartón con capacidad para almacenar 30 unidades. Cada canasta cuesta $200, por lo que se requerirán 67 para los 2.000 huevos solicitados.
@@ -289,7 +276,7 @@
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Tabla 4.
+        h5 Tabla 5.
         span <em>Ejemplo de orden de producción</em>
       img.d-md-block(src="@/assets/curso/temas/tema1/img-16.svg" data-aos="fade-left")
 
@@ -330,7 +317,10 @@
         p Cuando se habla de la capacidad máxima de producción, no se pueden desestimar los periodos improductivos por requerimientos propios de la maquinaria, o por cuestiones fisiológicas de los operarios. Por ello, es importante calcular la capacidad instalada partiendo de la capacidad teórica, que es aquella que se alcanzaría trabajando las 24 horas del día, los 7 días de la semana.
         p Por ejemplo, una empresa que elabora envases plásticos hace uso de dos máquinas industriales que pueden producir cada una hasta 50 unidades por hora. 
         p Para determinar la capacidad teórica se debe multiplicar el número de unidades por hora por las horas del día, de esta forma se puede definir una capacidad teórica en los intervalos de tiempo que sean más beneficiosos para el análisis, así:
-
+    
+    .titulo-sexto.color-primario(data-aos="fade-right")
+      h5 Tabla 6.
+      span <em>Capacidad teórica</em>
     img.d-md-block.mb-5(src="@/assets/curso/temas/tema1/img-20.svg" data-aos="fade-left")
 
     p.mb-4(data-aos="fade-right") A partir de esta capacidad teórica, se pueden deducir los periodos de tiempo improductivos que surgen por regulaciones normativas o por las limitaciones propias de la maquinaria. Suponiendo que el fabricante de esta recomienda el uso diario no mayor a 16 horas, por lo que la empresa ha de habituarse a esta condición contratando el personal operativo suficiente para prestar dos turnos de 8 horas por día. De lo anterior se deduce que 8 de cada 24 horas, la maquinaria estará en reposo o en mantenimiento para garantizar su vida útil, por lo que la capacidad instalada se calculará a partir de la proporción, de la siguiente forma:
@@ -475,19 +465,19 @@
     p.mb-4 Las técnicas de trabajo en equipo son estrategias o instrumentos que se aplican a un colectivo laboral. Su propósito es la creación de un ambiente de trabajo más propicio para mejorar las habilidades de cada persona. Estas sirven para la organización y prospección de metas en la calidad de trabajo. Su objetivo principal es la productividad y gratificación grupal.
 
     TabsA.color-acento-botones.mt-5
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Dinámica de grupos")
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="A. Dinámica de grupos")
         .row
-          p Las dinámicas de equipo se basan en técnicas de trabajo de discusión verbal. Su objetivo es fomentar el diálogo y la confrontación de ideas en un grupo, centrándose en categorías como generar ideas, alcanzar consenso y organizarlas. Por ejemplo, el brainstorming es una técnica que estimula la creatividad y el intercambio de ideas sin censuras ni críticas. Para alcanzar el consenso, se busca el consentimiento total de los miembros del equipo, reduciendo opciones de solución hasta llegar a acuerdos aceptados por todos. La reducción de listado es una técnica que permite seleccionar las mejores ideas a través de filtros y criterios. Para organizar las ideas, se analizan, interpretan y dividen en categorías, como el diagrama de causa y efecto, que ayuda a identificar las causas principales de un problema.  
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Solución de problemas en grupo")
+          p Las dinámicas de equipo se basan en técnicas de trabajo de discusión verbal. Su objetivo es fomentar el diálogo y la confrontación de ideas en un grupo, centrándose en categorías como generar ideas, alcanzar consenso y organizarlas. Por ejemplo, el <em>brainstorming</em> es una técnica que estimula la creatividad y el intercambio de ideas sin censuras ni críticas. Para alcanzar el consenso, se busca el consentimiento total de los miembros del equipo, reduciendo opciones de solución hasta llegar a acuerdos aceptados por todos. La reducción de listado es una técnica que permite seleccionar las mejores ideas a través de filtros y criterios. Para organizar las ideas, se analizan, interpretan y dividen en categorías, como el diagrama de causa y efecto, que ayuda a identificar las causas principales de un problema.  
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="B. Solución de problemas en grupo")
         .row
-          p La técnica de solución de problemas en grupo te permite abordar un problema de manera estructurada y científica. Utilizando métodos científicos, trabajarás en un diseño y aplicación de soluciones. Una herramienta útil para esta técnica es el Diagrama de Gantt. 
+          p La técnica de solución de problemas en grupo te permite abordar un problema de manera estructurada y científica. Utilizando métodos científicos, trabajarás en un diseño y aplicación de soluciones. Una herramienta útil para esta técnica es el Diagrama de <em>Gantt.</em> 
           p Esta técnica se basa en el enfoque propuesto por Einstein y sus colaboradores de la Universidad de Harvard, que parte de la definición del problema, identificación de causas y aplicación de soluciones. Al finalizar, se complementa con la elaboración de un plan de acción, que incluye objetivos a corto, mediano y largo plazo, estrategias y recursos necesarios. 
-          p Para utilizar el esquema de Gantt en la creación del plan de trabajo, debes responder las preguntas esenciales sobre el objetivo, fecha de conclusión, participantes, ubicación, forma de realización y la razón para eliminar el problema.
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Experimentación")
+          p Para utilizar el esquema de <em>Gantt</em> en la creación del plan de trabajo, debes responder las preguntas esenciales sobre el objetivo, fecha de conclusión, participantes, ubicación, forma de realización y la razón para eliminar el problema.
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="C. Experimentación")
         .row
           p Esta técnica es un proceso permanente de someter a prueba nuevas formas de aplicación. En el área de los clientes, de la reducción de costos, elevación de calidad, mayor productividad, etc. Se basa en la construcción de un marco apropiado para trabajar en equipo. Más que una técnica de trabajo en equipo es un estilo de pensamiento. Sin embargo, es importante recurrir a él para mejorar la calidad en las empresas. 
           p Aplicar esta técnica es una forma de estimular al personal a una búsqueda constante de mejores formas de hacer las cosas. Experimentar en este ámbito genera conocimientos que, a su vez, son la probabilidad de ganar calidad. 
-      .tarjeta.color-acento-contenido--borde.p-4(titulo="Informarse y aprender")
+      .tarjeta.color-acento-contenido--borde.p-4(titulo="D. Informarse y aprender")
         .row
           p <strong>Esta técnica abarca algunos temas:</strong>
           p - Objetivos y estrategia de la empresa. 
