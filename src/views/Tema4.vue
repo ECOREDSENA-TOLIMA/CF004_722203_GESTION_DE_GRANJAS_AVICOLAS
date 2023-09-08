@@ -20,7 +20,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 4.1 Hallazgos
+      h2#t_4_1 4.1 Hallazgos
 
     p.mb-5(data-aos="fade-right") Los hallazgos son el resultado de la evaluación de la evidencia recopilada, frente a los criterios que se estiman para dicha evaluación. Existen dos tipos de hallazgos: 
 
@@ -55,7 +55,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 4.2 Paso para implementarlo 
+      h2#t_4_2 4.2 Paso para implementarlo 
 
     .row.mb-4
       .col-12.col-md-5.mb-3.mb-md-0
@@ -106,7 +106,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 4.3 Acciones correctivas y de mejora
+      h2#t_4_3 4.3 Acciones correctivas y de mejora
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-7.mb-4.mb-md-0

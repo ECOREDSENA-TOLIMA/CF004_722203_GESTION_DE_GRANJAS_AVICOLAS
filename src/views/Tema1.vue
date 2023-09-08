@@ -38,7 +38,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 1.2 Distribución de recursos
+      h2#t_1_2 1.2 Distribución de recursos
 
     p.mb-5(data-aos="fade-right") Para llevar a cabo la producción es importante tener en cuenta la totalidad de los recursos necesarios y su equivalente en dinero, de tal forma que no se presenten interrupciones en el proceso. Un plan de producción debe ser lo suficientemente preciso para indicar la cantidad necesaria de cada recurso y el momento en el que será utilizado. En este sentido, es conveniente considerar los tres factores que se integran a través del plan de producción.
 
@@ -207,7 +207,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 1.3 Órdenes de producción
+      h2#t_1_3 1.3 Órdenes de producción
 
     p(data-aos="fade-right") El sistema de costeo por órdenes de producción permite determinar el costo de un lote de producto terminado en concreto. Con esta metodología se busca determinar el costo de la materia prima, mano de obra y los costos directos de fabricación para un número de unidades; un sistema que resulta de especial utilidad cuando se trabaja por encargos y se busca estimar la utilidad para cada pedido.
 
@@ -287,7 +287,7 @@
     Separador
     
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 1.4 Capacidad instalada
+      h2#t_1_4 1.4 Capacidad instalada
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -377,7 +377,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 1.5 Trabajo en equipo
+      h2#t_1_5 1.5 Trabajo en equipo
 
     .row.mb-5
       .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")

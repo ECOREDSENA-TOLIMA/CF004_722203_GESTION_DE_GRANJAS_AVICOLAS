@@ -20,7 +20,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 3.1 Teoría de la oferta y la demanda
+      h2#t_3_1 3.1 Teoría de la oferta y la demanda
 
     p.mb-4(data-aos="fade-right") Con esta se presume que el precio se establecerá por la unión de dos variables fundamentales: la necesidad de los consumidores y la oferta de los productores. 
 
@@ -40,7 +40,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 3.2 Cálculo de la demanda
+      h2#t_3_2 3.2 Cálculo de la demanda
 
     p.mb-5(data-aos="fade-right") La demanda de un producto es equivalente a la cantidad de compradores multiplicada por la cantidad de productos que adquiere cada uno de ellos en un periodo de tiempo determinado. Aunque a primera vista parece un cálculo sencillo, esconde muchos elementos objeto de estudio detrás. Por ejemplo, ¿Cómo determino el número de compradores que tendrá mi producto? O, ¿Cuántas unidades adquiere cada uno y con qué frecuencia?
 
