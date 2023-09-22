@@ -21,9 +21,8 @@
       p.col.mb-0.col-md-9.col-lg-11.ps-lg-4(data-aos="fade-left") El plan de producción se convierte, entonces, en una herramienta administrativa que contempla todos los aspectos relevantes a la hora de definir el proceso productivo de cualquier empresa manufacturera. A partir de un estimativo de ventas y unas políticas de inventario, el presupuesto de producción proyectará la cantidad de unidades a realizar y la estimación de su costo unitario y total; con ello, las directivas podrán asignar los recursos necesarios en periodos de tiempo determinados, para garantizar que la empresa ejecute sus actividades de manera continua, a continuación, se presentan las características que se deben tener en cuenta.
     
     Separador
-    
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_1 1.1 Características
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.1 Características
 
     p.mb-5(data-aos="fade-right") La elaboración de un presupuesto de producción es vital y suele contar con los siguientes factores.
 
@@ -36,22 +35,21 @@
             img(src="@/assets/curso/temas/tema1/cuadros-imagenes-2.svg" data-aos="zoom-in-up" alt="")
 
     Separador
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_2 1.2 Distribución de recursos
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.2 Distribución de recursos
 
     p.mb-5(data-aos="fade-right") Para llevar a cabo la producción es importante tener en cuenta la totalidad de los recursos necesarios y su equivalente en dinero, de tal forma que no se presenten interrupciones en el proceso. Un plan de producción debe ser lo suficientemente preciso para indicar la cantidad necesaria de cada recurso y el momento en el que será utilizado. En este sentido, es conveniente considerar los tres factores que se integran a través del plan de producción.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Costos de producción
+      h3 Costos de producción
 
     p.mb-5(data-aos="fade-right") Cualquier bien o mercancía producida requiere de tres elementos: <strong>materia prima, mano de obra y otros costos indirectos de fabricación;</strong> la suma de todos ellos constituye el costo de producción. Por lo que se presenta la descripción para comprender los conceptos mencionados:
     
-    .col-xl-10.mx-auto.mb-5
+    .col-lg-11.col-12.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 1.
         span <em>Costos de producción.</em>
-      img.d-md-block(src="@/assets/curso/temas/tema1/img-3.svg")
+      img.d-md-block(src="@/assets/curso/temas/tema1/img-3.svg" alt="En la figura 1 se muestran los costos que intervienen en la producción avícola.")
 
     p.mb-5(data-aos="fade-right") Para el caso de una empresa dedicada a la producción de huevos, algunos de los costos involucrados podrían clasificarse así:
     
@@ -90,7 +88,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Calendario presupuestal
+      h3 Calendario presupuestal
 
     .row.mb-5
       .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
@@ -149,15 +147,15 @@
     p.mb-5(data-aos="fade-right") La coordinación de cada una de las actividades a ejecutar posibilitará el uso eficiente de todos los recursos, por lo que se recomienda el uso de herramientas que permitan visualizar los horizontes de tiempo de una manera clara y efectiva, de tal forma que todos los participantes de la producción comprendan el cronograma. Para llevar a cabo esta labor se sugiere el uso de una de las herramientas más populares en la gestión de proyectos.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Diagrama de Gantt
+      h3 Diagrama de Gantt
 
     p.mb-5(data-aos="fade-right") Consiste en un gráfico de barras horizontales utilizado para representar un cronograma de manera visual. Cada barra del diagrama representa una actividad o tarea, y su longitud, el tiempo necesario para ejecutarla. Su diseño permite coordinar varias tareas de manera simultánea o secuencial, involucrando tantas como el proyecto requiera. Según el portal Asana.com (2020), las ventajas más significativas de los diagramas de Gantt son:
 
-    .col-xl-10.mx-auto.mb-5
+    .col-lg-11.col-12.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 2.
         span <em>Características del Diagrama de Gantt</em>
-      img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/gallery-5.svg" data-aos="fade-right")
+      img.d-md-block.mb-3(src="@/assets/curso/temas/tema1/gallery-5.svg" data-aos="fade-right" alt="En la figura 2 se muestran las características del Diagrama de Gantt.")
       figcaption Nota. Adaptado de portal Asana.com (2020). 
 
     p.mb-5(data-aos="fade-right") Para diseñar un diagrama de Gantt se requiere como insumo principal el cronograma elaborado en el plan de producción. Como recomendación se describe la siguiente metodología a seguir.
@@ -202,12 +200,11 @@
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 3.
         span <em>Diagrama de Gantt</em>
-      img.d-md-block(src="@/assets/curso/temas/tema1/img-12.svg" data-aos="fade-left")
+      img.d-md-block(src="@/assets/curso/temas/tema1/img-12.svg" data-aos="fade-left" alt="La figura 3 se muestra un Diagrama de Gantt utilizado para la planificación y seguimiento de la producción de huevos.")
 
     Separador
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_3 1.3 Órdenes de producción
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.3 Órdenes de producción
 
     p(data-aos="fade-right") El sistema de costeo por órdenes de producción permite determinar el costo de un lote de producto terminado en concreto. Con esta metodología se busca determinar el costo de la materia prima, mano de obra y los costos directos de fabricación para un número de unidades; un sistema que resulta de especial utilidad cuando se trabaja por encargos y se busca estimar la utilidad para cada pedido.
 
@@ -217,11 +214,11 @@
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 4.
         span <em>Formato de orden de producción</em>
-      img.d-md-block(src="@/assets/curso/temas/tema1/img-13.svg" data-aos="fade-left")
+      img.d-md-block(src="@/assets/curso/temas/tema1/img-13.svg" data-aos="fade-left" alt="La figura 4 se muestra un formato modelo de una orden de producción.")
       figcaption Nota. Tomada Guarnizo y Cárdenas (2015) 
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Características
+      h3 Características
 
     p.mb-4(data-aos="fade-right") La utilización de las órdenes de producción implica que el proceso productivo dará inicio una vez se emitan, pues en ellas se consigna el tipo y número de unidades a producir; de otra parte, las órdenes de producción suelen contar con las siguientes características.
     
@@ -237,7 +234,7 @@
         p ● La producción usualmente requiere de un pedido previo, es decir, se trabaja por encargo que, a su vez, suele obedecer a ventas efectuadas a los clientes.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Diligenciamiento
+      h3 Diligenciamiento
 
     .d-flex.flex-wrap.mb-5
       .col-xl-8.pe-xl-4.d-flex.flex-wrap.align-items-center.order-2.order-xl-1
@@ -284,10 +281,9 @@
 
     p.mb-4(data-aos="fade-right") Otro factor importante que se debe tener en cuenta en la gestión de una granja avícola es identificar la cantidad de productos que puede producir, para lo cual requiere conocer los siguientes aspectos.
 
-    Separador
-    
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_4 1.4 Capacidad instalada
+    Separador    
+    #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.4 Capacidad instalada
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
@@ -307,7 +303,7 @@
     p.mb-4(data-aos="fade-right") También se hace necesario realizar algunas mediciones para tener claro el proceso de gestión de una granja avícola.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Medición
+      h3 Medición
 
     .row.mb-5
       .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
@@ -330,7 +326,7 @@
     p.mb-5(data-aos="fade-right") Por otro lado, se hace necesario revisar otros factores que alteran el proceso de gestión de una granja avícola al funcionar como empresa, lo que se verá en el siguiente ítem.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Factores limitantes
+      h3 Factores limitantes
 
     p.mb-4(data-aos="fade-right") Existe multiplicidad de factores que pueden limitar la capacidad instalada de producción, la mayoría de ellos corresponden a factores ajenos a la administración, por lo que deben ser tenidos en cuenta a la hora de establecer políticas para incrementar la productividad. Las situaciones más recurrentes y a tener en cuenta a la hora de efectuar el cálculo de capacidad instalada son las que se mencionan en el siguiente objeto de aprendizaje.
 
@@ -370,14 +366,13 @@
           .col-12
             img.img-slider(src='@/assets/curso/temas/tema1/imagen-5.png' alt='')
         h2.text-center.texto-negro Limitaciones de capital
-        p.px-3.text-center.texto-negro Mantener los niveles de producción al máximo implica contar con todos los insumos necesarios en cada etapa del proceso productivo. Esto se traduce en un volumen de compras significativos que no es sostenible en el mediano plazo si el recaudo por ventas no es por lo menos equivalente. 
+        p.px-3.text-center.texto-negro Mantener los niveles de producción al máximo implica contar con todos los insumos necesarios en cada etapa del proceso productivo. Esto se traduce en un volumen de compras significativas que no es sostenible en el mediano plazo si el recaudo por ventas no es por lo menos equivalente. 
 
     p.mb-4(data-aos="fade-right") A continuación, se tienen en cuenta otros elementos que se deben tener en cuenta en la gestión de una empresa avícola.
 
     Separador
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_1_5 1.5 Trabajo en equipo
+    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.5 Trabajo en equipo
 
     .row.mb-5
       .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
@@ -388,7 +383,7 @@
         p Para que se dé el trabajo en equipo debe existir una voluntad para trabajar de manera conjunta con terceros, siendo conscientes que el conocimiento de cada integrante del equipo podrá aportar a la ejecución de las tareas desde una perspectiva distinta, a continuación, se presentan algunos elementos importantes.
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Características
+      h3 Características
 
     p.mb-4(data-aos="fade-right") El trabajo en equipo requiere contar con una serie de cualidades o características para que aporte más que el trabajo individual, por lo que se describen aquellas que representan una mayor ventaja.
 
@@ -458,7 +453,7 @@
               img(src='@/assets/curso/temas/tema1/img-34.png', alt='Texto que describa la imagen')
 
     .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h3#t_1_1 Técnicas 
+      h3 Técnicas 
 
     p.mb-4 El desempeño de los equipos de trabajo puede verse afectado por técnicas enfocadas a potenciar las habilidades de sus integrantes. El portal <em>Coworkingfy (s.f.)</em> presenta cuatro (4) métodos basados en procedimientos y procesos lógicos para lograr este objetivo a saber:
     h5 Técnica para trabajar en equipo. 
@@ -485,7 +480,7 @@
           p - Planes de acción de la competencia. 
           p Esta técnica para trabajar en equipo es de las más importantes. Es el mecanismo para que una empresa funcione. Por lo tanto, el personal debe estar bien informado y encontrarse en constante aprendizaje para mejorar la calidad. 
           p <strong>Para asegurarse de que el equipo está informado y en constante aprendizaje, se pueden implementar diversas estrategias:</strong>
-          p Chat de empresa, Boletines,  Periódicos murales, Conferencias, Talleres, Visitas técnicas, Entretenimientos, Actividades colectivas, Acceso a bibliografía actualizada , Rotación de puesto. 
+          p Chat de empresa, Boletines,  Periódicos murales, Conferencias, Talleres, Visitas técnicas, Entretenimientos, Actividades colectivas, Acceso a bibliografía actualizada, Rotación de puesto. 
           p Esto ayudará a que el equipo de trabajo tenga la oportunidad de capacitarse para estar más preparado y así, mejorar su rendimiento.
 
 

@@ -15,9 +15,8 @@
       img.mb-4.mb-xl-0.col-xl-4.mx-auto.order-1.order-xl-2(src="@/assets/curso/temas/tema2/img-36.png" data-aos="fade-left" style="max-width: 400px")
 
     Separador
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_1 2.1 Características
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.1 Características
 
     p.mb-5(data-aos="fade-right") Según Burbano (2006), para que un informe de ejecución cumpla su papel, debe contar con lineamientos claros como los que se presentan a continuación.
 
@@ -44,8 +43,9 @@
         .col-md-12.mb-4.mb-md-0
           p La generación de informes para diferentes áreas debe proveer una interconexión que facilite la validación de la información por usuarios de diferentes niveles. Así, las directivas del nivel estratégico podrán apoyarse en los informes de áreas específicas.
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_2 2.2 Estructura
+    Separador
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.2 Estructura
 
     p.mb-5(data-aos="fade-right") El principal objetivo del informe de ejecución es dejar en evidencia el nivel de cumplimiento de metas de la empresa. Para ello, la comparación más evidente consiste en poner en paralelo las expectativas y la realidad; así, un cuadro con tres columnas: ejecutado, presupuestado y su diferencia, podría aportar la información cuantitativa más relevante. No obstante, este tipo de informes puede complementarse con diagramas o gráficos de barras comparativas. 
 
@@ -83,8 +83,9 @@
 
     p.mb-5(data-aos="fade-right") Por lo anterior, serán las necesidades de la dirección las que encaminan el perfil de los informes a unos u otros modelos; a continuación, se explicará brevemente el análisis de datos y su importancia en la gestión de empresas avícolas.
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_2_3 2.3 Análisis 
+    Separador
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 2.3 Análisis 
 
     .row.mb-5
       .col-12.col-md-5.mb-3.mb-md-0(data-aos="fade-right")
@@ -95,7 +96,7 @@
 
     p.mb-4(data-aos="fade-right") Siguiendo con la idea anterior, es altamente recomendable elaborar más de un presupuesto, afectado por el comportamiento de diferentes áreas, creando una sucesión de escenarios que sirvan como comparativa con la ejecución posterior. Para llevar a cabo esta labor, surge una herramienta conocida como el presupuesto flexible, el cual busca establecer metas diferentes cuando los escenarios originales no se cumplen.
 
-    p.p-4.mb-4(style="background: #FFE8CE") Por ejemplo, si las ventas anuales solo alcanzaron 60 % de las presupuestadas, no se puede asumir que la reducción de los gastos por comisiones de ventas en 10 % del presupuesto original sea algo positivo. Es cierto que se está gastando menos de lo presupuestado en las comisiones a vendedores, pero esto no obedece a una correcta gestión del área comercial, sino todo lo contrario, la reducción comercial es solo una consecuencia lógica de los bajos niveles de venta. <br><br> Este tipo de presupuesto requiere un conocimiento profundo de todos los procesos, puesto que la diversidad de escenarios requiere que se tengan claras las estructuras de costos fijos y variables. Es evidente que a menores ventas, menores niveles de producción, por lo que los costos directos, como la materia prima, también se van a ver disminuidos.
+    p.p-4.mb-4(style="background: #FFE8CE") Por ejemplo, si las ventas anuales solo alcanzaron 60 % de las presupuestadas, no se puede asumir que la reducción de los gastos por comisiones de ventas en 10 % del presupuesto original sea algo positivo. Es cierto que se está gastando menos de lo presupuestado en las comisiones a vendedores, pero esto no obedece a una correcta gestión del área comercial, sino todo lo contrario, la reducción comercial es solo una consecuencia lógica de los bajos niveles de venta. <br><br> Este tipo de presupuesto requiere un conocimiento profundo de todos los procesos, puesto que la diversidad de escenarios requiere que se tengan claras las estructuras de costos fijos y variables. Es evidente que, a menores ventas, menores niveles de producción, por lo que los costos directos, como la materia prima, también se van a ver disminuidos.
 
     p.mb-4(data-aos="fade-right") De nuevo, y como en el ejemplo anterior, esto no es gracias a mejores precios o a políticas implementadas para un manejo más eficiente de la producción; sino que para producir menos unidades se requieren menos materiales. Los costos fijos, por otra parte, probablemente se mantengan constantes dado que no se ven afectados por los niveles de producción.
 

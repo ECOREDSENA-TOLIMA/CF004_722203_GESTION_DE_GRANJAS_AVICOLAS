@@ -243,33 +243,33 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Aneca. (s.f.). Plan de mejoras. Herramienta de trabajo.',
+      referencia: ' Aneca. (s.f.). Plan de mejoras. Herramienta de trabajo. ',
       link:
         'https://www.academia.edu/28134046/PLAN_DE_MEJORAS_Herramienta_de_trabajo_Agencia_Nacional_de_Evaluaci%C3%B3n_de_la_Calidad_y_Acreditaci%C3%B3n',
     },
     {
       referencia:
-        'Asana. (2020). ¿No conocías los diagramas de Gantt? Comienza aquí',
+        ' Asana. (2020). ¿No conocías los diagramas de Gantt? Comienza aquí ',
       link: 'https://asana.com/es/resources/gantt-chart-basics ',
     },
     {
       referencia:
-        'Burbano A. (2006). Costos y presupuestos. Ediciones Uniandes',
+        ' Burbano A. (2006). Costos y presupuestos. Ediciones Uniandes ',
       link: 'https://es.scribd.com/document/501990720/costos-y-presupuestos#',
     },
     {
       referencia:
-        'Coworkingfy. (s.f.). Técnicas de trabajo en equipo | 4 métodos para lograr la unión. Coworkingfy.',
+        ' Coworkingfy. (s.f.). Técnicas de trabajo en equipo | 4 métodos para lograr la unión. Coworkingfy. ',
       link: 'https://coworkingfy.com/tecnicas-trabajo-en-equipo/',
     },
     {
       referencia:
-        'Guarnizo, C. F., y Cárdenas, S. M. (2015). Costos por órdenes de producción y por procesos. La Salle.',
+        ' Guarnizo, C. F., y Cárdenas, S. M. (2015). Costos por órdenes de producción y por procesos. La Salle. ',
       link:
         'https://ciencia.lasalle.edu.co/cgi/viewcontent.cgi?article=1007&context=edunisalle_administracion-economia',
     },
     {
-      referencia: '(S/f). Edu.co. Recuperado el 6 de julio de 2023, de',
+      referencia: '(S/f). Edu.co. Recuperado el 6 de julio de 2023, de ',
       link:
         'https://repositorio.sena.edu.co/bitstream/11404/4177/1/unidad_07_sistema_costos_ordenes_produccion.pdf',
     },

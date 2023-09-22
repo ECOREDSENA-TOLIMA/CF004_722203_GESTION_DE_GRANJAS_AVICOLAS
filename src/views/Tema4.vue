@@ -18,9 +18,8 @@
     p.mb-5(data-aos="fade-right") El alcance del plan de mejora abarca todas las áreas de la empresa, esto se debe a que cualquier proceso dentro del sistema es susceptible de mejora. Debido a ello, estos son responsabilidad de las directivas o la gerencia general, este grupo de personas está acompañado de los directores de cada área, sin embargo, durante el proceso de diseño resulta de vital importancia contar con la retroalimentación del personal operativo, quienes pueden aportar hallazgos que pasen desapercibidos en los niveles más altos de la organización.
 
     Separador
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_4_1 4.1 Hallazgos
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 4.1 Hallazgos
 
     p.mb-5(data-aos="fade-right") Los hallazgos son el resultado de la evaluación de la evidencia recopilada, frente a los criterios que se estiman para dicha evaluación. Existen dos tipos de hallazgos: 
 
@@ -53,9 +52,8 @@
     p.mb-5(data-aos="fade-right") Es a partir de estos hallazgos que la empresa puede implementar una planeación enfocada a corregir y prevenir las no conformidades y a ver los hallazgos como una oportunidad de mejora. 
 
     Separador
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_4_2 4.2 Paso para implementarlo 
+    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 4.2 Paso para implementarlo 
 
     .row.mb-4
       .col-12.col-md-5.mb-3.mb-md-0
@@ -70,7 +68,7 @@
           br
           li.mb-0
             i.fas.fa-circle(style="color:#B20D0D")
-            | <strong>Propuesta de planificación:</strong> se debe diseñar un plan que sea viable y lo suficientemente flexible para implementar acciones adicionales a futuro. A la hora de estructurarlo se incorporan los hallazgos del paso anterior y se analizan las posibles soluciones haciendo uso de herramientas de planeación como por ejemplo: la lluvia de ideas o el diagrama de Gantt, explicados previamente en el componente.
+            | <strong>Propuesta de planificación:</strong> se debe diseñar un plan que sea viable y lo suficientemente flexible para implementar acciones adicionales a futuro. A la hora de estructurarlo se incorporan los hallazgos del paso anterior y se analizan las posibles soluciones haciendo uso de herramientas de planeación como, por ejemplo: la lluvia de ideas o el diagrama de Gantt, explicados previamente en el componente.
 
     p.mb-5 Una vez sean definidas las soluciones más efectivas, es necesario proponer las acciones y las tareas a realizar especificando los beneficios que se esperan obtener. Finalmente, se documenta todo el proceso en el plan de mejora. 
 
@@ -104,9 +102,8 @@
       figcaption Nota. Tomada de Aneca (s.f.)
 
     Separador
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_4_3 4.3 Acciones correctivas y de mejora
+    #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 4.3 Acciones correctivas y de mejora
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-7.mb-4.mb-md-0
@@ -141,10 +138,10 @@
           h5 Figura 6. 
           span <em>Determinar la causa raíz del problema </em>
         figure.desktop.d-none.d-sm-block.d-sm-none.d-lg-block.d-none.d-md-block
-          img(src="@/assets/curso//temas/tema4/img-61-1.svg" data-aos="zoom-in-up" alt="")
+          img(src="@/assets/curso//temas/tema4/img-61-1.svg" data-aos="zoom-in-up" alt="En la figura 6 se muestra como determinar la causa raíz del problema.")
         figure.movil.mt-0  
           .row.justify-content-center.d-lg-none.d-md-none  
-            img(src="@/assets/curso/temas/tema4/img-61-2.svg" data-aos="zoom-in-up" alt="")
+            img(src="@/assets/curso/temas/tema4/img-61-2.svg" data-aos="zoom-in-up" alt="En la figura 6 se muestra como determinar la causa raíz del problema.")
 
     ul.lista-ul.mb-5
       li.mb-0
@@ -155,7 +152,7 @@
       .titulo-sexto.color-primario(data-aos="fade-right")
         h5 Figura 7. 
         span <em>Tratamiento de acciones correctivas.</em>
-      img.d-md-block(src="@/assets/curso/temas/tema4/img-62.svg" data-aos="fade-left")
+      img.d-md-block(src="@/assets/curso/temas/tema4/img-62.svg" data-aos="fade-left" alt="En la figura 7 se muestra el tratamiento de acciones correctivas.")
 
     ul.lista-ul.mb-5
       li.mb-0
@@ -168,12 +165,12 @@
           h5 Figura 8. 
           span <em>Pasos para generar acciones de mejora</em>
         figure.desktop.d-none.d-sm-block.d-sm-none.d-lg-block.d-none.d-md-block
-          img(src="@/assets/curso//temas/tema4/img-63-1.svg" data-aos="zoom-in-up" alt="")
+          img(src="@/assets/curso//temas/tema4/img-63-1.svg" data-aos="zoom-in-up" alt="En la figura 8 se muestran los pasos para generar acciones de mejora.")
         figure.movil.mt-0  
           .row.justify-content-center.d-lg-none.d-md-none  
-            img(src="@/assets/curso/temas/tema4/img-63-2.svg" data-aos="zoom-in-up" alt="")
+            img(src="@/assets/curso/temas/tema4/img-63-2.svg" data-aos="zoom-in-up" alt="En la figura 8 se muestran los pasos para generar acciones de mejora.")
 
-    p Recuerda que, para alcanzar el éxito empresarial, es importante el compromiso y disciplina de todo el personal involucrado y así se llevara a la organización a niveles de confianza y aceptación, no solo para sus empleados, si no para todas las partes interesadas.
+    p Recuerda que, para alcanzar el éxito empresarial, es importante el compromiso y disciplina de todo el personal involucrado y así se llevara a la organización a niveles de confianza y aceptación, no solo para sus empleados, sino para todas las partes interesadas.
 
 
 

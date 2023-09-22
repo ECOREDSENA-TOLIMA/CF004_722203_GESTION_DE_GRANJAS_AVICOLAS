@@ -18,9 +18,8 @@
     p.mb-5(data-aos="fade-right") El comportamiento del mercado frente a un producto suele obedecer a diferentes causas, la mayoría de ellas escapan del alcance de la empresa. No obstante, uno de los elementos sobre los que existe un margen de maniobra y que tiene incidencia directa sobre el mercado es la determinación del precio.
 
     Separador
-
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_3_1 3.1 Teoría de la oferta y la demanda
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 3.1 Teoría de la oferta y la demanda
 
     p.mb-4(data-aos="fade-right") Con esta se presume que el precio se establecerá por la unión de dos variables fundamentales: la necesidad de los consumidores y la oferta de los productores. 
 
@@ -32,17 +31,18 @@
 
     .col-xl-10.mx-auto.mb-5
       .titulo-sexto.color-primario(data-aos="fade-right")
-        h5 Figura 4.
+        h5 Figura 5.
         span <em>Curva de oferta y demanda</em>
-      img.d-md-block(src="@/assets/curso/temas/tema3/img-44.svg" data-aos="fade-left")
+      img.d-md-block(src="@/assets/curso/temas/tema3/img-44.svg" data-aos="fade-left" alt="La figura 5 se muestra una representación gráfica de la curva de oferta y demanda.")
       figcaption Nota. Tomada de https://economipedia.com/definiciones/ley-de-oferta-y-demanda.html
 
     Separador
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 3.2 Cálculo de la demanda
 
-    .titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2#t_3_2 3.2 Cálculo de la demanda
+    p.mb-4(data-aos="fade-right") La demanda de un producto es equivalente a la cantidad de compradores multiplicada por la cantidad de productos que adquiere cada uno de ellos en un periodo de tiempo determinado. Aunque a primera vista parece un cálculo sencillo, esconde muchos elementos objeto de estudio detrás. Por ejemplo, ¿Cómo determino el número de compradores que tendrá mi producto? O, ¿Cuántas unidades adquiere cada uno y con qué frecuencia?
 
-    p.mb-5(data-aos="fade-right") La demanda de un producto es equivalente a la cantidad de compradores multiplicada por la cantidad de productos que adquiere cada uno de ellos en un periodo de tiempo determinado. Aunque a primera vista parece un cálculo sencillo, esconde muchos elementos objeto de estudio detrás. Por ejemplo, ¿Cómo determino el número de compradores que tendrá mi producto? O, ¿Cuántas unidades adquiere cada uno y con qué frecuencia?
+    p.mb-5(data-aos="fade-right") A continuación, se describen los factores que se deben tener en cuenta para calcular la demanda:
 
     .tarjeta.tarjeta--azul2.p-4.mb-5
       SlyderA(tipo="b")
@@ -92,7 +92,7 @@
           .col-md-6.mb-4.mb-md-0
             h4 Calcular la demanda
             br
-            p Habiendo definido el número de unidades que se esperan vender en un periodo determinado, en este caso mensual, solo resta multiplicarlo por el precio de venta. Muchos factores intervienen en la determinación del precio; tales como: el caso del costo de producción, la política de entrada al mercad y la diferenciación o ventaja competitiva.
+            p Habiendo definido el número de unidades que se esperan vender en un periodo determinado, en este caso mensual, solo resta multiplicarlo por el precio de venta. Muchos factores intervienen en la determinación del precio; tales como: el caso del costo de producción, la política de entrada al mercado y la diferenciación o ventaja competitiva.
             p Por otro lado, algunas empresas compiten con un menor precio de venta y otros con productos de mayor calidad, por lo que, sea cual sea la estrategia, debe existir un margen de rentabilidad que permita cubrir los gastos de ventas y administrativos, lo que dejar utilidad suficiente para garantizar la permanencia en el mercado. 
 
           .col-md-5.px-3
