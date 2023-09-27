@@ -1,0 +1,1 @@
+.actividad{background-color:#f2f2f2}.image_floating{filter:drop-shadow(10px 5px 4px rgba(0,0,0,.1))}.imagen_flotante_animada{filter:drop-shadow(0 5px 15px rgba(0,0,0,.2));transform:translatey(0);animation:float 6s ease-in-out infinite}.caja_flotante{box-shadow:-11px 10px 0 -1px #f3f3f3}.caja_flotante_azul{box-shadow:-11px 10px 0 -1px #f1fcfd}
